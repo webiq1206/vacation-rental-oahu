@@ -1,0 +1,75 @@
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)
+2
+index-L7S3pl0H.js:521 LCP Time: 512
+index-L7S3pl0H.js:49 
+ GET https://vacationrentaloahu.co/api/property/public 404 (Not Found)

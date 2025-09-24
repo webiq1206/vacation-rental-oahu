@@ -1,90 +1,95 @@
-# VacationRentalOahu.co - Beach House Vacation Rental Platform
+# VacationRentalOahu.co - Beach House Vacation Rental System
 
-A sophisticated vacation rental website for a beachfront property in Oahu, Hawaii, featuring modern Four Seasons/Cappa-level typography and comprehensive booking functionality.
+A complete, production-ready Beach House vacation rental website for Oahu, Hawaii, featuring modern booking systems, payment processing, and comprehensive admin management tools. Built with React, Node.js, PostgreSQL, and Stripe.
 
-## 🏝️ Features
+## 🌟 Features
 
-- **Beautiful Frontend**: Playfair Display typography with tropical color palette
-- **Booking System**: Real-time availability checking and secure payments via Stripe
-- **Admin Panel**: Comprehensive property and booking management
-- **Email Automation**: Automated guest communications via Resend/SendGrid
-- **SEO Optimized**: Targeting "Beach House Oahu" and "Vacation Rental Oahu" keywords
+### 🏝️ **Guest Experience**
+- **Modern Airbnb-Style Interface** - Clean, intuitive design with tropical color palette
+- **Interactive Booking System** - Real-time availability, pricing calculator, and instant reservations
+- **Secure Payment Processing** - Stripe integration with PCI-compliant checkout
+- **Photo Gallery** - High-quality property images with lightbox viewing
+- **Mobile-Responsive Design** - Optimized experience across all devices
+- **SEO Optimized** - Server-side rendering, meta tags, JSON-LD schema
 
-## 🛠️ Technology Stack
+### 🛡️ **Admin Management**
+- **Comprehensive Dashboard** - Overview of bookings, revenue, and performance metrics
+- **Booking Management** - View, edit, and manage all reservations
+- **Calendar Control** - Set blackout dates and manage availability
+- **Dynamic Pricing** - Seasonal rates, weekend pricing, and discount rules
+- **Content Management** - Update property details, photos, and amenities
+- **Settings Panel** - Configure payments, email, and system preferences
 
-### Frontend
-- **React 18 + TypeScript**: Modern component architecture
-- **Tailwind CSS**: Responsive design with custom tropical theme
-- **Shadcn/ui**: Consistent component library
-- **TanStack Query**: Server state management
-- **Wouter**: Lightweight routing
+### 💼 **Business Features**
+- **Multi-tier Pricing** - Base rates, seasonal pricing, weekend rates, cleaning fees
+- **Coupon System** - Percentage and fixed-amount promotional codes
+- **Email Automation** - Booking confirmations, reminders, and receipts
+- **Contact Management** - Guest inquiries with automated responses
+- **Analytics Ready** - GA4, Meta Pixel integration hooks
 
-### Backend
-- **Node.js + Express**: RESTful API server
-- **PostgreSQL**: Primary database with Neon hosting
-- **Drizzle ORM**: Type-safe database operations
-- **Stripe**: Secure payment processing
-- **Passport.js**: Session-based authentication
+## 🏗️ Architecture
 
-### External Services
-- **Replit**: Development and hosting platform
-- **Neon**: PostgreSQL database hosting
-- **Stripe**: Payment processing
-- **Resend/SendGrid**: Email delivery
+### Tech Stack
+- **Frontend**: React 18, TypeScript, Tailwind CSS, Wouter (routing)
+- **Backend**: Node.js, Express, TypeScript
+- **Database**: PostgreSQL with Drizzle ORM
+- **Payments**: Stripe (checkout, webhooks, test/live modes)
+- **Email**: Resend/Postmark/Mailgun support
+- **Authentication**: Passport.js with session management
+- **UI Components**: Shadcn/ui with Radix primitives
 
-## 🚀 Development
-
-This project is primarily developed and hosted on Replit with GitHub for version control and backup.
-
-### Local Development
-```bash
-npm install
-npm run dev
-```
-
-### Database Migrations
-```bash
-npm run db:generate
-npm run db:push
-```
-
-## 📦 Deployment
-
-The application is deployed on Replit with automatic builds and deployment pipeline.
-
-### Environment Variables Required:
-- `DATABASE_URL`: PostgreSQL connection string
-- `STRIPE_SECRET_KEY`: Stripe payment processing
-- `RESEND_API_KEY`: Email delivery service
-- `SESSION_SECRET`: Session security
-- `GOOGLE_MAPS_API_KEY`: Maps integration
-
-## 🔒 Security Features
-
-- Session-based authentication for admin access
-- Rate limiting on API endpoints
-- Input validation with Zod schemas
-- CSRF protection
-- Secure payment tokenization
-
-## 📊 Database Schema
-
-The application uses a normalized PostgreSQL schema with tables for:
-- Users & Authentication
-- Property Management
-- Booking System
-- Payment Processing
-- Email Templates
-- Audit Logging
-
-## 🎨 Design
-
-The site features sophisticated typography using Playfair Display serif fonts, creating an elegant Four Seasons/Cappa-level aesthetic that reflects the luxury nature of the beachfront vacation rental.
-
-## 📞 Support
-
-For technical support or inquiries, please use the GitHub Issues tab.
-
----
-
-*Last updated: 2025-09-24*
+### Database Schema (Mermaid ERD)
+```mermaid
+erDiagram
+    users ||--o{ audit_logs : creates
+    property ||--o{ photos : has
+    property ||--o{ property_amenities : has
+    property ||--o{ pricing_rules : has
+    property ||--o{ blackout_dates : has
+    property ||--o{ bookings : receives
+    amenities ||--o{ property_amenities : belongs_to
+    bookings ||--o{ guests : includes
+    bookings ||--o{ email_events : triggers
+    coupons ||--o{ bookings : applies_to
+    
+    users {
+        uuid id PK
+        text email UK
+        text password
+        text role
+        text twofa_secret
+        timestamp created_at
+    }
+    
+    property {
+        uuid id PK
+        text title
+        text description
+        text address
+        decimal lat
+        decimal lng
+        text check_in_time
+        text check_out_time
+        int max_guests
+        int bedrooms
+        int bathrooms
+        decimal rating
+        int review_count
+    }
+    
+    bookings {
+        uuid id PK
+        uuid property_id FK
+        text status
+        date start_date
+        date end_date
+        int nights
+        int guests
+        decimal subtotal
+        decimal taxes
+        decimal fees
+        decimal total
+        text currency
+        text payment_intent_id
+        text idempotency_key UK
+    }

@@ -1,0 +1,2712 @@
+/* Fonts loaded in index.html via preconnect + optimized Google Fonts for performance */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Luxury Typography Defaults */
+@layer base {
+  body {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-base;
+  }
+
+  p, li, span, small, div {
+    @apply font-serif font-normal tracking-luxury-tight;
+  }
+
+  h1 {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-5xl;
+  }
+
+  h2 {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-4xl;
+  }
+
+  h3 {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-2xl;
+  }
+
+  h4 {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-xl;
+  }
+
+  h5 {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-lg;
+  }
+
+  h6 {
+    @apply font-serif font-normal tracking-luxury-tight text-luxury-base;
+  }
+
+  /* Buttons inherit luxury typography */
+  button {
+    @apply font-serif font-normal tracking-luxury-tight;
+  }
+
+  /* Inputs and form elements */
+  input, textarea, select {
+    @apply font-serif font-normal tracking-luxury-tight;
+  }
+
+  /* Links */
+  a {
+    @apply font-serif font-normal tracking-luxury-tight;
+  }
+
+  /* Semantic bold elements normalized to luxury typography */
+  strong, b {
+    @apply font-serif font-normal tracking-luxury-tight;
+  }
+
+  /* Table elements normalized to luxury typography */
+  th, dt, legend, caption {
+    @apply font-serif font-normal tracking-luxury-tight;
+  }
+}
+
+:root {
+  /* Luxury Neutral Palette */
+  --ivory: hsl(48 29% 96%);
+  --stone: hsl(42 14% 86%);
+  --dune: hsl(40 10% 70%);
+  --onyx: hsl(210 10% 12%);
+  
+  /* Refined Design Tokens */
+  --background: var(--ivory);
+  --foreground: var(--onyx);
+  --card: hsl(48 25% 98%);
+  --card-foreground: var(--onyx);
+  --popover: hsl(48 25% 98%);
+  --popover-foreground: var(--onyx);
+  --primary: var(--onyx);
+  --primary-foreground: var(--ivory);
+  --secondary: var(--stone);
+  --secondary-foreground: var(--onyx);
+  --muted: hsl(42 12% 92%);
+  --muted-foreground: hsl(40 8% 55%);
+  --accent: hsl(38 24% 48%);
+  --accent-foreground: var(--ivory);
+  --destructive: hsl(0 70% 50%);
+  --destructive-foreground: var(--ivory);
+  --border: hsl(42 10% 88%);
+  --input: hsl(42 10% 88%);
+  --ring: hsl(38 24% 48%);
+  --radius: 6px;
+  --font-sans: 'Inter', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, 'Courier New', monospace;
+  
+  /* Custom wallpaper colors */
+  --bronze: hsl(43 65% 49%);
+  --deep-green: hsl(195 100% 25%);
+  --muted-teal: hsl(175 40% 50%);
+  --soft-sage: hsl(80 20% 75%);
+  --warm-wood: hsl(25 60% 45%);
+  --blush-accent: hsl(350 45% 85%);
+  --off-white: hsl(60 9% 98%);
+  
+  /* Theme-independent CTA text color for accessibility */
+  --cta-foreground: hsl(0 0% 100%);
+
+  /* Refined Brass Accent System (Desaturated) */
+  --bronze-950: hsl(38 32% 12%);
+  --bronze-900: hsl(38 30% 20%);
+  --bronze-800: hsl(38 28% 28%);
+  --bronze-700: hsl(38 26% 38%);
+  --bronze-600: hsl(38 24% 48%);
+  --bronze-500: hsl(38 24% 58%);
+  --bronze-400: hsl(38 26% 70%);
+  --bronze-300: hsl(38 24% 82%);
+  --bronze-200: hsl(38 22% 90%);
+  --bronze-100: hsl(38 20% 95%);
+  --bronze-50: hsl(38 18% 98%);
+  
+  /* Legacy Bronze Tokens (for backwards compatibility) */
+  --bronze-dk: var(--bronze-800);
+  --bronze: var(--bronze-600);
+  --bronze-md: var(--bronze-500);
+  --bronze-lt: var(--bronze-400);
+  --bronze-hi: var(--bronze-300);
+  
+  /* Bronze Metallic Effects */
+  --bronze-base: var(--bronze-600);
+  --bronze-light: var(--bronze-400);
+  --bronze-dark: var(--bronze-800);
+  --bronze-sheen: var(--bronze-200);
+  
+  /* Bronze Specular Highlights for Realistic Metal */
+  --bronze-specular-1: hsl(50 95% 88%);
+  --bronze-specular-2: hsl(48 85% 82%);
+  --bronze-hotspot: hsl(52 100% 92%);
+  --bronze-rim-light: var(--bronze-300);
+  
+  /* Bronze Shadow System */
+  --bronze-shadow-deep: hsl(25 40% 18%);
+  --bronze-shadow-medium: hsl(28 45% 25%);
+  --bronze-shadow-light: hsl(30 50% 35%);
+  --bronze-edge-glow: var(--bronze-400);
+  --bronze-inner-glow: var(--bronze-300);
+  
+  /* Typography Scale System - Enhanced for Luxury */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.875rem;     /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-xl: 1.25rem;      /* 20px */
+  --text-2xl: 1.5rem;      /* 24px */
+  --text-3xl: 1.875rem;    /* 30px */
+  --text-4xl: 2.25rem;     /* 36px */
+  --text-5xl: 3rem;        /* 48px */
+  --text-6xl: 3.75rem;     /* 60px */
+  
+  /* Line Height Scale - Refined for Elegance */
+  --leading-none: 1;
+  --leading-tight: 1.1;
+  --leading-snug: 1.2;
+  --leading-normal: 1.4;
+  --leading-relaxed: 1.6;
+  --leading-loose: 1.8;
+  
+  /* Letter Spacing for Luxury Typography - Enhanced */
+  --tracking-tighter: -0.04em;
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.02em;
+  --tracking-wider: 0.04em;
+  --tracking-widest: 0.08em;
+  --tracking-luxury: 0.12em;
+  --tracking-paradise: 0.15em;  /* Special tracking for 'Paradise' */
+  
+  /* Spacing System - Section Paddings */
+  --section-padding-mobile: 1.5rem;     /* 24px */
+  --section-padding-mobile-lg: 2rem;    /* 32px */
+  --section-padding-desktop: 3.5rem;    /* 56px */
+  --section-padding-desktop-lg: 6rem;   /* 96px */
+  
+  /* Container Paddings */
+  --container-padding-mobile: 1rem;     /* 16px */
+  --container-padding-tablet: 1.5rem;   /* 24px */
+  --container-padding-desktop: 2rem;    /* 32px */
+  
+  /* Touch Target Sizes for Mobile */
+  --touch-target-min: 2.75rem;  /* 44px */
+  --touch-target-optimal: 3rem; /* 48px */
+  
+  /* Disabled glass effects for luxury aesthetic */
+  
+  /* Animation Durations */
+  --bronze-transition-fast: 0.15s;
+  --bronze-transition-medium: 0.3s;
+  --bronze-transition-slow: 0.6s;
+  --bronze-sheen-duration: 2.5s;
+  --glass-transition: 0.2s;
+  
+  /* Motion Preference Variables - CSS Custom Properties for JS Access */
+  --reduced-motion: 0;
+  --motion-safe-duration: var(--bronze-transition-medium);
+  --motion-safe-distance: 50px;
+  --animation-play-state: running;
+  --scroll-behavior: smooth;
+
+  /* Simplified luxury gradients */
+  
+  /* Glass Morphism with Bronze Accents */
+  --glass-bronze: rgba(184, 134, 71, 0.1);
+  --glass-bronze-border: rgba(184, 134, 71, 0.2);
+  --glass-bronze-highlight: rgba(254, 243, 199, 0.15);
+  
+  /* Mobile Payment Specific */
+  --mobile-payment-bg: rgba(255, 255, 255, 0.95);
+  --mobile-payment-border: rgba(184, 134, 71, 0.2);
+  --bronze-card-bg: linear-gradient(135deg, rgba(254, 243, 199, 0.1) 0%, rgba(202, 138, 4, 0.05) 100%);
+  --luxury-card-border: 1px solid rgba(184, 134, 71, 0.15);
+  
+  /* Performance optimizations for mobile */
+  --mobile-hover-scale: 1.02;
+  --desktop-hover-scale: 1.05;
+  
+  /* Carousel scrolling enhancements */
+  --carousel-scroll-behavior: smooth;
+  --carousel-touch-action: pan-x;
+}
+
+.dark {
+  --background: hsl(24 9% 8%);
+  --foreground: hsl(45 15% 95%);
+  --card: hsl(24 9% 8%);
+  --card-foreground: hsl(45 15% 95%);
+  --popover: hsl(24 9% 8%);
+  --popover-foreground: hsl(45 15% 95%);
+  --primary: var(--ivory);
+  --primary-foreground: var(--onyx);
+  --secondary: hsl(210 8% 25%);
+  --secondary-foreground: var(--ivory);
+  --muted: hsl(210 8% 18%);
+  --muted-foreground: hsl(210 6% 65%);
+  --accent: hsl(38 20% 55%);
+  --accent-foreground: var(--onyx);
+  --destructive: hsl(0 75% 60%);
+  --destructive-foreground: hsl(45 15% 95%);
+  --border: hsl(24 6% 20%);
+  --input: hsl(24 6% 20%);
+  --ring: var(--bronze-400);
+  
+  /* Custom wallpaper colors for dark mode */
+  --bronze: hsl(43 65% 55%);
+  --deep-green: hsl(175 40% 30%);
+  --muted-teal: hsl(175 30% 40%);
+  --soft-sage: hsl(80 20% 60%);
+  --warm-wood: hsl(25 50% 35%);
+  --blush-accent: hsl(350 45% 70%);
+  --off-white: hsl(60 9% 95%);
+  
+  /* Theme-independent CTA text color for accessibility */
+  --cta-foreground: hsl(0 0% 100%);
+
+  /* Enhanced Bronze Design Tokens - Dark Mode Optimized */
+  --bronze-950: hsl(28 40% 12%);
+  --bronze-900: hsl(28 45% 18%);
+  --bronze-800: hsl(30 50% 25%);
+  --bronze-700: hsl(32 55% 33%);
+  --bronze-600: hsl(34 60% 41%);
+  --bronze-500: hsl(36 65% 49%);
+  --bronze-400: hsl(38 70% 57%);
+  --bronze-300: hsl(40 75% 65%);
+  --bronze-200: hsl(42 80% 73%);
+  --bronze-100: hsl(44 85% 81%);
+  --bronze-50: hsl(46 90% 89%);
+  
+  /* Legacy Bronze Tokens (for backwards compatibility) */
+  --bronze-dk: var(--bronze-800);
+  --bronze: var(--bronze-500);
+  --bronze-md: var(--bronze-400);
+  --bronze-lt: var(--bronze-300);
+  --bronze-hi: var(--bronze-200);
+  
+  /* Bronze Metallic Effects - Dark Mode */
+  --bronze-base: var(--bronze-500);
+  --bronze-light: var(--bronze-300);
+  --bronze-dark: var(--bronze-800);
+  --bronze-sheen: var(--bronze-200);
+  
+  /* Bronze Specular Highlights - Dark Mode */
+  --bronze-specular-1: hsl(50 90% 85%);
+  --bronze-specular-2: hsl(48 80% 78%);
+  --bronze-hotspot: hsl(52 95% 88%);
+  --bronze-rim-light: var(--bronze-200);
+  
+  /* Bronze Shadow System - Dark Mode */
+  --bronze-shadow-deep: hsl(22 35% 12%);
+  --bronze-shadow-medium: hsl(25 40% 20%);
+  --bronze-shadow-light: hsl(28 45% 28%);
+  --bronze-edge-glow: var(--bronze-400);
+  --bronze-inner-glow: var(--bronze-300);
+  
+  /* Glass Effect Variables - Dark Mode */
+  --glass-bg: rgba(255, 255, 255, 0.05);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  --glass-backdrop: blur(16px);
+  
+  /* Animation Durations (same for dark mode) */
+  --bronze-transition-fast: 0.15s;
+  --bronze-transition-medium: 0.3s;
+  --bronze-transition-slow: 0.6s;
+  --bronze-sheen-duration: 2.5s;
+  --glass-transition: 0.2s;
+}
+
+/* Keyframe Animations for Bronze Effects */
+@keyframes bronzeShimmer {
+  0% { transform: translateX(-100%); opacity: 0; }
+  50% { opacity: 0.6; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes bronzeGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(184, 134, 71, 0.3); }
+  50% { box-shadow: 0 0 30px rgba(184, 134, 71, 0.6), 0 0 40px rgba(254, 243, 199, 0.2); }
+}
+
+@keyframes luxuryPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes slideUpReveal {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bronzeSkeletonLoading {
+  0%, 100% {
+    background-position: 200% 0;
+  }
+  50% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) skewX(-12deg); }
+  100% { transform: translateX(200%) skewX(-12deg); }
+}
+
+@keyframes amenityFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes premiumGlow {
+  0%, 100% { box-shadow: 0 0 20px rgba(184, 134, 71, 0.2), 0 0 40px rgba(184, 134, 71, 0.1); }
+  50% { box-shadow: 0 0 30px rgba(184, 134, 71, 0.4), 0 0 60px rgba(184, 134, 71, 0.2); }
+}
+
+@keyframes iconRotate {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(-3deg) scale(1.05); }
+  75% { transform: rotate(3deg) scale(1.05); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+@keyframes textShimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes glassBlur {
+  0% { backdrop-filter: blur(12px); }
+  50% { backdrop-filter: blur(20px); }
+  100% { backdrop-filter: blur(12px); }
+}
+
+/* Enhanced Reviews Carousel Animations */
+@keyframes continuousScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%) skewX(-12deg); }
+  100% { transform: translateX(200%) skewX(-12deg); }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+@keyframes reviewSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(60px) scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0) scale(1);
+  }
+}
+
+@keyframes reviewFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes dotPulse {
+  0%, 100% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.2); opacity: 1; }
+}
+
+@keyframes avatarFloat {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-3px); }
+}
+
+@keyframes trustBadgeGlow {
+  0%, 100% { box-shadow: 0 0 10px rgba(34, 197, 94, 0.2); }
+  50% { box-shadow: 0 0 20px rgba(34, 197, 94, 0.4), 0 0 30px rgba(34, 197, 94, 0.2); }
+}
+
+@keyframes starSparkle {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.1) rotate(2deg); }
+  75% { transform: scale(0.95) rotate(-2deg); }
+}
+
+@keyframes glassMorphReveal {
+  from {
+    backdrop-filter: blur(0px);
+    background: rgba(255, 255, 255, 0);
+  }
+  to {
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* ========================================
+   ACCESSIBILITY ENHANCEMENTS & WCAG 2.1 AA COMPLIANCE
+   ======================================== */
+
+/* WCAG AA Focus Ring Colors - 3:1 minimum contrast ratio */
+:root {
+  --focus-ring-bronze: hsl(36 80% 35%);    /* 3.5:1 contrast on light backgrounds */
+  --focus-ring-bronze-light: hsl(42 90% 25%); /* 4.8:1 contrast for enhanced visibility */
+  --focus-ring-bronze-dark: hsl(30 60% 15%);  /* Dark focus ring for light elements */
+  --focus-ring-width: 3px;
+  --focus-ring-offset: 2px;
+  
+  /* Screen Reader & ARIA Support */
+  --sr-only-clip: rect(0, 0, 0, 0);
+  --accessible-touch-target: 44px; /* WCAG minimum touch target */
+  
+  /* High Contrast Support */
+  --high-contrast-outline: 2px solid;
+  --high-contrast-bg: canvas;
+  --high-contrast-text: canvasText;
+}
+
+.dark {
+  --focus-ring-bronze: hsl(42 95% 75%);    /* High contrast for dark mode */
+  --focus-ring-bronze-light: hsl(48 100% 85%); /* Enhanced visibility dark mode */
+  --focus-ring-bronze-dark: hsl(36 70% 65%);  /* Dark mode focus ring */
+}
+
+/* Enhanced Screen Reader Only Utility */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: var(--sr-only-clip) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.sr-only-focusable:focus,
+.sr-only-focusable:active {
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  padding: inherit !important;
+  margin: inherit !important;
+  overflow: visible !important;
+  clip: auto !important;
+  white-space: normal !important;
+}
+
+/* Enhanced Focus States for All Interactive Elements */
+.accessible-focus,
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible,
+[tabindex]:focus-visible,
+[role="button"]:focus-visible,
+[role="link"]:focus-visible,
+[role="menuitem"]:focus-visible,
+[role="tab"]:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-bronze) !important;
+  outline-offset: var(--focus-ring-offset) !important;
+  border-radius: 4px;
+  box-shadow: 
+    0 0 0 calc(var(--focus-ring-width) + var(--focus-ring-offset)) rgba(184, 134, 71, 0.2),
+    0 0 8px rgba(184, 134, 71, 0.3) !important;
+  z-index: 1;
+  position: relative;
+}
+
+/* Bronze-specific focus for buttons and CTAs */
+.btn-bronze:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-bronze-light) !important;
+  outline-offset: var(--focus-ring-offset) !important;
+  box-shadow: 
+    0 0 0 calc(var(--focus-ring-width) + var(--focus-ring-offset)) rgba(215, 179, 137, 0.3),
+    0 0 12px rgba(215, 179, 137, 0.4) !important;
+}
+
+/* Gallery and Interactive Element Focus */
+.gallery-item:focus-visible,
+.carousel-button:focus-visible,
+.review-card:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-bronze) !important;
+  outline-offset: var(--focus-ring-offset) !important;
+  border-radius: 8px;
+  box-shadow: 
+    0 0 0 calc(var(--focus-ring-width) + var(--focus-ring-offset)) rgba(184, 134, 71, 0.2),
+    0 4px 12px rgba(184, 134, 71, 0.25) !important;
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+/* Skip Links for Keyboard Navigation */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--focus-ring-bronze-dark);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  z-index: 1000;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 6px;
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* Accessible Touch Targets */
+.touch-target {
+  min-height: var(--accessible-touch-target);
+  min-width: var(--accessible-touch-target);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ARIA Live Regions */
+.aria-live-polite {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.aria-live-assertive {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .accessible-focus,
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    outline: var(--high-contrast-outline) !important;
+    outline-color: Highlight !important;
+    box-shadow: none !important;
+  }
+  
+  .btn-bronze {
+    border: 2px solid ButtonText !important;
+    background: ButtonFace !important;
+    color: ButtonText !important;
+  }
+  
+  .btn-bronze:hover,
+  .btn-bronze:focus {
+    background: Highlight !important;
+    color: HighlightText !important;
+    border-color: HighlightText !important;
+  }
+}
+
+/* ========================================
+   COMPREHENSIVE REDUCED MOTION SYSTEM
+   ======================================== */
+
+/* User preference override - applied via JS when user toggles */
+[data-motion-preference="reduce"] {
+  --reduced-motion: 1;
+  --motion-safe-duration: 0.01ms;
+  --motion-safe-distance: 0px;
+  --animation-play-state: paused;
+  --scroll-behavior: auto;
+}
+
+/* System preference detection and comprehensive motion reduction */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --reduced-motion: 1;
+    --motion-safe-duration: 0.01ms;
+    --motion-safe-distance: 0px;
+    --animation-play-state: paused;
+    --scroll-behavior: auto;
+  }
+  
+  /* Global motion reset - all elements */
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-play-state: paused !important;
+    transition-duration: 0.1s !important;
+    transform: none !important;
+  }
+  
+  /* Maintain essential focus indicators */
+  .accessible-focus:focus-visible,
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    transition: outline 0.1s ease !important;
+  }
+  
+  /* Disable scroll behavior animations */
+  html {
+    scroll-behavior: auto !important;
+  }
+  
+  /* Disable all shimmer and metallic effects */
+  .bronze-shimmer,
+  .bronze-shimmer::before,
+  .bronze-shimmer::after,
+  .bronze-shimmer-overlay,
+  .animate-shimmer,
+  .btn-bronze::after,
+  .btn-bronze-enhanced::before,
+  .luxury-card::before,
+  .bronze-gradient-enhanced::before {
+    animation: none !important;
+    display: none !important;
+  }
+  
+  /* Disable carousel animations */
+  .animate-continuous-scroll,
+  [data-embla-carousel] {
+    animation: none !important;
+    animation-play-state: paused !important;
+  }
+  
+  /* Disable hover transforms and complex transitions */
+  .gallery-image:hover,
+  .amenity-card:hover,
+  .luxury-card-animation:hover,
+  .btn-bronze:hover,
+  .btn-bronze-enhanced:hover,
+  .review-card-luxury:hover,
+  .amenity-card-luxury:hover {
+    transform: none !important;
+  }
+  
+  /* Disable scroll reveal animations */
+  .scroll-reveal,
+  .scroll-reveal-left,
+  .scroll-reveal-right,
+  .scroll-reveal-scale {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  
+  /* Disable loading animations */
+  .loading-shimmer,
+  .loading-skeleton-luxury,
+  .bronze-skeleton {
+    animation: none !important;
+    background: var(--muted) !important;
+  }
+  
+  /* Disable star and icon animations */
+  .bronze-star:hover,
+  .amenityFloat,
+  .iconRotate {
+    animation: none !important;
+    transform: none !important;
+  }
+  
+  /* Disable parallax effects */
+  .parallax-container,
+  .parallax-element,
+  [data-parallax] {
+    transform: none !important;
+    will-change: auto !important;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-size: 18px;
+  }
+  
+  body {
+    @apply font-serif antialiased bg-background text-foreground leading-relaxed font-normal tracking-luxury-tight;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    @apply text-luxury-5xl md:text-luxury-6xl font-serif font-normal tracking-luxury-tight leading-tight;
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+  }
+  
+  h2 {
+    @apply text-luxury-3xl md:text-luxury-4xl font-serif font-normal tracking-luxury-tight leading-tight;
+    font-size: clamp(2rem, 4vw, 2.5rem);
+  }
+  
+  h3 {
+    @apply text-luxury-xl md:text-luxury-2xl font-serif font-normal tracking-luxury-tight leading-snug;
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+  }
+}
+
+.booking-widget-shadow {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.gallery-image {
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.mobile-sticky-booking {
+  background: linear-gradient(135deg, var(--bronze) 0%, var(--deep-green) 100%);
+}
+
+.amenity-card {
+  transition: all 0.2s ease;
+}
+
+.amenity-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .mobile-sticky-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+  }
+}
+
+/* Mobile Payment Styles */
+.bronze-card-gradient {
+  background: var(--bronze-card-bg);
+  border: var(--luxury-card-border);
+  backdrop-filter: blur(8px);
+}
+
+.luxury-card-border {
+  border: var(--luxury-card-border);
+  box-shadow: 0 4px 20px rgba(184, 134, 71, 0.1);
+}
+
+.mobile-payment-element {
+  min-height: 200px;
+}
+
+.mobile-payment-element .StripeElement {
+  padding: 16px;
+  border-radius: 8px;
+  background: var(--mobile-payment-bg);
+  border: var(--mobile-payment-border);
+}
+
+/* Touch Target Optimization */
+.touch-target-optimal {
+  min-height: var(--touch-target-optimal);
+  min-width: var(--touch-target-optimal);
+}
+
+/* Express Payment Styles */
+.express-checkout-container {
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(8px);
+}
+
+/* Enhanced Bronze Button Styling */
+.btn-bronze-mobile {
+  background: linear-gradient(135deg, var(--bronze-600) 0%, var(--bronze-700) 100%);
+  border: 1px solid var(--bronze-500);
+  box-shadow: 
+    0 4px 12px rgba(184, 134, 71, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: all var(--bronze-transition-medium) ease;
+}
+
+.btn-bronze-mobile:hover {
+  background: linear-gradient(135deg, var(--bronze-700) 0%, var(--bronze-800) 100%);
+  box-shadow: 
+    0 6px 20px rgba(184, 134, 71, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Mobile Performance Optimizations */
+@media (max-width: 768px) {
+  /* Hardware acceleration for smooth animations */
+  .mobile-booking-optimizer,
+  .mobile-sticky-cta,
+  .mobile-payment-form {
+    transform: translateZ(0);
+    will-change: transform, opacity;
+    backface-visibility: hidden;
+  }
+  
+  /* Smooth scrolling for mobile */
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  /* Touch optimizations */
+  button, a, [role="button"] {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  /* Prevent zoom on input focus */
+  input, select, textarea {
+    font-size: 16px;
+  }
+}
+
+/* Premium Animation Classes */
+.luxury-fade-in {
+  animation: luxuryFadeIn 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes luxuryFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.luxury-slide-up {
+  animation: luxurySlideUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes luxurySlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Enhanced Bronze Metallic Effects */
+.bronze-shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.bronze-shimmer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(215, 179, 137, 0.4),
+    rgba(229, 199, 165, 0.6),
+    rgba(215, 179, 137, 0.4),
+    transparent
+  );
+  animation: bronzeShimmer 3s infinite;
+  z-index: 1;
+}
+
+@keyframes bronzeShimmer {
+  0% { 
+    left: -100%; 
+    opacity: 0;
+  }
+  50% { 
+    opacity: 1;
+  }
+  100% { 
+    left: 100%; 
+    opacity: 0;
+  }
+}
+
+/* Bronze Shimmer Overlay for Photo Gallery */
+.bronze-shimmer-overlay {
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(215, 179, 137, 0.2) 25%,
+    rgba(229, 199, 165, 0.4) 50%,
+    rgba(215, 179, 137, 0.2) 75%,
+    transparent 100%
+  );
+  background-size: 200% 200%;
+  mix-blend-mode: overlay;
+}
+
+/* Premium Bronze Metallic Glow */
+.bronze-metallic-glow {
+  box-shadow: 
+    0 0 20px rgba(215, 179, 137, 0.3),
+    0 0 40px rgba(215, 179, 137, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(215, 179, 137, 0.2);
+}
+
+/* Enhanced Glass Effects */
+.glass-premium {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+/* Advanced Mobile Optimizations & 60fps Performance */
+@media (max-width: 768px) {
+  .luxury-mobile-card {
+    background: var(--bronze-card-bg);
+    border-radius: 16px;
+    border: var(--luxury-card-border);
+    box-shadow: 
+      0 10px 40px rgba(184, 134, 71, 0.15),
+      0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all var(--bronze-transition-medium) ease;
+  }
+  
+  .luxury-mobile-card:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 
+      0 15px 50px rgba(184, 134, 71, 0.2),
+      0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+/* Tropical color enhancements inspired by the mural */
+/* Add bg- prefixed gradient aliases for Tailwind compatibility */
+.bg-tropical-gradient {
+  background: linear-gradient(135deg, var(--deep-green) 0%, var(--muted-teal) 50%, var(--soft-sage) 100%);
+}
+
+.bg-coral-gradient {
+  background: linear-gradient(135deg, hsl(43 65% 40%) 0%, hsl(43 75% 45%) 100%);
+  color: var(--cta-foreground);
+}
+
+.bg-bronze-gradient {
+  background: linear-gradient(135deg, hsl(43 65% 40%) 0%, hsl(43 75% 45%) 100%);
+  color: var(--cta-foreground);
+}
+
+.bg-ocean-gradient {
+  background: linear-gradient(135deg, var(--deep-green) 0%, var(--muted-teal) 100%);
+}
+
+.bg-sage-gradient {
+  background: linear-gradient(135deg, var(--soft-sage) 0%, var(--off-white) 100%);
+}
+
+.bg-wood-gradient {
+  background: linear-gradient(135deg, var(--warm-wood) 0%, hsl(25 70% 50%) 100%);
+}
+
+/* Main tropical gradient using new palette */
+.tropical-gradient {
+  background: linear-gradient(135deg, var(--deep-green) 0%, var(--muted-teal) 50%, var(--soft-sage) 100%);
+}
+
+/* Ocean gradient with deep greens */
+.ocean-gradient {
+  background: linear-gradient(135deg, var(--deep-green) 0%, var(--muted-teal) 100%);
+}
+
+/* Sage gradient for subtle accents */
+.sage-gradient {
+  background: linear-gradient(135deg, var(--soft-sage) 0%, var(--off-white) 100%);
+}
+
+/* Warm wood gradient */
+.wood-gradient {
+  background: linear-gradient(135deg, var(--warm-wood) 0%, hsl(25 70% 50%) 100%);
+}
+
+/* Legacy coral-gradient updated to bronze for CTAs - darkened for better contrast */
+.coral-gradient {
+  background: linear-gradient(135deg, hsl(43 65% 40%) 0%, hsl(43 75% 45%) 100%);
+  color: var(--cta-foreground);
+}
+
+/* Bronze CTA gradient - darkened for better contrast */
+.bronze-gradient {
+  background: linear-gradient(135deg, hsl(43 65% 40%) 0%, hsl(43 75% 45%) 100%);
+  color: var(--cta-foreground);
+}
+
+/* Hero section with tropical overlay */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(5, 84, 67, 0.1) 0%, rgba(187, 85, 53, 0.1) 100%);
+}
+
+/* Botanical pattern inspired styles */
+.botanical-accent {
+  position: relative;
+}
+
+.botanical-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 49%, rgba(167, 185, 141, 0.1) 50%, transparent 51%);
+  pointer-events: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header transparent-to-solid transition enhancements */
+.header-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: background-color, backdrop-filter, box-shadow, border-color;
+}
+
+/* Enhanced header states for better visual appeal */
+.header-transparent {
+  background: transparent !important;
+  backdrop-filter: none !important;
+  border-bottom: 1px solid transparent !important;
+  box-shadow: none !important;
+}
+
+.header-solid {
+  background: #f7f7f2;
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid hsl(var(--border));
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Mobile menu transition enhancements */
+.mobile-menu-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: background-color, backdrop-filter, border-color;
+}
+
+/* Custom focus styles for accessibility - improved contrast */
+.focus-visible:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Loading state styles */
+.loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    hsl(var(--muted)) 0%,
+    hsl(var(--background)) 50%,
+    hsl(var(--muted)) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Enhanced form styles */
+.form-input {
+  @apply w-full px-3 py-2 border border-border rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:border-transparent transition-colors;
+}
+
+.form-label {
+  @apply text-luxury-sm font-serif font-normal tracking-luxury-tight text-foreground mb-1 block;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(210 40% 96%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(215.4 16.3% 46.9%);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(5 84% 67%);
+}
+
+/* Realistic Metallic Bronze CTA Button Implementation */
+.btn-bronze {
+  position: relative;
+  overflow: hidden;
+  min-height: clamp(44px, 4vw, 52px);
+  padding: clamp(12px, 2vw, 16px) clamp(24px, 4vw, 32px);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: clamp(14px, 2vw, 16px);
+  letter-spacing: 0.025em;
+  color: white;
+  cursor: pointer;
+  transition: all var(--bronze-transition-medium) cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+  
+  /* Layered Bronze Metal Effect - 4 Layers */
+  background: 
+    /* Layer 4: Subtle noise texture */
+    radial-gradient(circle at 30% 20%, transparent 45%, rgba(255, 255, 255, 0.08) 46%, transparent 47%),
+    radial-gradient(circle at 70% 80%, transparent 45%, rgba(255, 255, 255, 0.06) 46%, transparent 47%),
+    /* Layer 3: Hotspot highlight */
+    radial-gradient(ellipse 120% 60% at 50% 20%, var(--bronze-hotspot) 0%, transparent 70%),
+    /* Layer 2: Specular reflection */
+    linear-gradient(145deg, var(--bronze-specular-1) 0%, transparent 30%, transparent 70%, var(--bronze-specular-2) 100%),
+    /* Layer 1: Base bronze gradient */
+    linear-gradient(135deg, var(--bronze-dk) 0%, var(--bronze) 25%, var(--bronze-md) 50%, var(--bronze-lt) 75%, var(--bronze) 100%);
+  
+  /* Multi-Shadow Depth - 4 Shadow Layers */
+  box-shadow:
+    /* Outset depth shadow */
+    0 8px 16px -4px hsla(from var(--bronze-shadow-deep) h s l / 0.4),
+    0 4px 8px -2px hsla(from var(--bronze-shadow-deep) h s l / 0.3),
+    /* Edge glow */
+    0 0 0 1px hsla(from var(--bronze-edge-glow) h s l / 0.3),
+    /* Inner bevel (inset shadows) */
+    inset 0 1px 0 hsla(from var(--bronze-inner-glow) h s l / 0.4),
+    inset 0 -1px 0 hsla(from var(--bronze-shadow-mid) h s l / 0.6);
+  
+  /* Metallic Border */
+  border: 1px solid transparent;
+  background-clip: padding-box;
+  
+  /* Typography - Text Shadow for Readability */
+  text-shadow: 
+    0 1px 2px hsla(from var(--bronze-shadow-deep) h s l / 0.8),
+    0 0 4px hsla(from var(--bronze-shadow-deep) h s l / 0.4);
+}
+
+/* Pseudo-Elements for Lighting Effects */
+.btn-bronze::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(180deg, 
+    hsla(from var(--bronze-specular-1) h s l / 0.6) 0%, 
+    hsla(from var(--bronze-specular-1) h s l / 0.3) 50%, 
+    transparent 100%
+  );
+  mix-blend-mode: screen;
+  border-radius: inherit;
+  pointer-events: none;
+  transition: opacity var(--bronze-transition-medium) ease;
+}
+
+.btn-bronze::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    hsla(from var(--bronze-hotspot) h s l / 0.4) 50%, 
+    transparent 100%
+  );
+  transition: left var(--bronze-sheen-duration) cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
+  mix-blend-mode: overlay;
+}
+
+/* Interactive States */
+
+/* Hover State - Shift gradients, boost highlights, animate sheen */
+.btn-bronze:hover {
+  transform: translateY(-1px) scale(1.02);
+  background: 
+    /* Enhanced noise texture on hover */
+    radial-gradient(circle at 25% 15%, transparent 40%, rgba(255, 255, 255, 0.12) 41%, transparent 42%),
+    radial-gradient(circle at 75% 85%, transparent 40%, rgba(255, 255, 255, 0.10) 41%, transparent 42%),
+    /* Boosted hotspot */
+    radial-gradient(ellipse 130% 70% at 50% 15%, var(--bronze-hotspot) 0%, transparent 75%),
+    /* Enhanced specular reflection */
+    linear-gradient(140deg, var(--bronze-specular-1) 0%, transparent 25%, transparent 75%, var(--bronze-specular-2) 100%),
+    /* Shifted base gradient */
+    linear-gradient(130deg, var(--bronze-dk) 0%, var(--bronze) 20%, var(--bronze-md) 45%, var(--bronze-lt) 70%, var(--bronze-hi) 100%);
+  
+  box-shadow:
+    /* Enhanced depth */
+    0 12px 24px -6px hsla(from var(--bronze-shadow-deep) h s l / 0.5),
+    0 6px 12px -3px hsla(from var(--bronze-shadow-deep) h s l / 0.4),
+    /* Brighter edge glow */
+    0 0 0 1px hsla(from var(--bronze-edge-glow) h s l / 0.5),
+    /* Enhanced inner bevel */
+    inset 0 2px 0 hsla(from var(--bronze-inner-glow) h s l / 0.6),
+    inset 0 -1px 0 hsla(from var(--bronze-shadow-mid) h s l / 0.7);
+}
+
+.btn-bronze:hover::after {
+  left: 100%;
+}
+
+/* Active State - Compress with translateY/scale, deepen shadows */
+.btn-bronze:active {
+  transform: translateY(1px) scale(0.98);
+  transition-duration: var(--bronze-transition-fast);
+  
+  box-shadow:
+    /* Compressed shadows */
+    0 4px 8px -2px hsla(from var(--bronze-shadow-deep) h s l / 0.6),
+    0 2px 4px -1px hsla(from var(--bronze-shadow-deep) h s l / 0.5),
+    /* Maintained edge glow */
+    0 0 0 1px hsla(from var(--bronze-edge-glow) h s l / 0.4),
+    /* Deeper inset shadows */
+    inset 0 2px 4px hsla(from var(--bronze-shadow-deep) h s l / 0.3),
+    inset 0 -1px 0 hsla(from var(--bronze-shadow-mid) h s l / 0.8);
+}
+
+.btn-bronze:active::before {
+  opacity: 0.5;
+}
+
+/* Focus State - Maintain Accessible Outline */
+.btn-bronze:focus-visible {
+  outline: 2px solid var(--bronze-hi);
+  outline-offset: 2px;
+}
+
+/* Disabled State - Reduce contrast, remove animations */
+.btn-bronze:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+  
+  background: 
+    linear-gradient(135deg, 
+      hsla(from var(--bronze-dk) h s l / 0.7) 0%, 
+      hsla(from var(--bronze) h s l / 0.7) 50%, 
+      hsla(from var(--bronze-md) h s l / 0.7) 100%
+    );
+  
+  box-shadow:
+    0 2px 4px -1px hsla(from var(--bronze-shadow-deep) h s l / 0.2),
+    inset 0 1px 0 hsla(from var(--bronze-inner-glow) h s l / 0.2);
+  
+  text-shadow: 0 1px 1px hsla(from var(--bronze-shadow-deep) h s l / 0.5);
+}
+
+.btn-bronze:disabled::before,
+.btn-bronze:disabled::after {
+  display: none;
+}
+
+/* Accessibility - Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .btn-bronze,
+  .btn-bronze::before,
+  .btn-bronze::after {
+    transition: none;
+    animation: none;
+  }
+  
+  .btn-bronze:hover {
+    transform: none;
+  }
+  
+  .btn-bronze:active {
+    transform: none;
+  }
+  
+  .btn-bronze::after {
+    display: none;
+  }
+}
+
+/* ========================================
+   BRONZE TEXT GRADIENT - PARADISE STYLING
+   ======================================== */
+
+/* Bronze Text Gradient that matches the bronze buttons */
+.bronze-text-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--bronze-dk) 0%,
+    var(--bronze) 15%,
+    var(--bronze-md) 35%,
+    var(--bronze-lt) 55%,
+    var(--bronze-hi) 75%,
+    var(--bronze-specular-1) 90%,
+    var(--bronze-hotspot) 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  font-weight: 700;
+  animation: bronze-text-shimmer 4s ease-in-out infinite;
+}
+
+/* Support check for background-clip */
+@supports not (background-clip: text) {
+  .bronze-text-gradient {
+    background: none;
+    color: hsl(43 65% 49%);
+  }
+}
+
+/* Shimmer animation for bronze text */
+@keyframes bronze-text-shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  50% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+/* Mobile optimized bronze text */
+@media (max-width: 768px) {
+  .bronze-text-gradient {
+    /* Enhanced contrast and visibility on mobile */
+    background: linear-gradient(
+      135deg,
+      var(--bronze-dk) 0%,
+      var(--bronze) 10%,
+      var(--bronze-md) 25%,
+      var(--bronze-lt) 40%,
+      var(--bronze-hi) 55%,
+      var(--bronze-specular-1) 70%,
+      var(--bronze-hotspot) 85%,
+      var(--bronze-specular-1) 100%
+    );
+    background-size: 300% 100%;
+  }
+}
+
+/* Dark mode adjustments for bronze text */
+.dark .bronze-text-gradient {
+  /* No additional styling needed - gradient handles dark mode automatically */
+}
+
+/* Accessibility - Reduce motion for bronze text */
+@media (prefers-reduced-motion: reduce) {
+  .bronze-text-gradient {
+    animation: none;
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+}
+
+/* ========================================
+   CONTINUOUS REVIEWS CAROUSEL ANIMATIONS
+   ======================================== */
+
+/* Main continuous scroll animation - 40px per second speed */
+@keyframes continuous-scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-33.333%, 0, 0); /* Move by 1/3 to create seamless loop */
+  }
+}
+
+/* Apply continuous scroll animation */
+.animate-continuous-scroll {
+  animation: continuous-scroll 60s linear infinite;
+  will-change: transform;
+}
+
+/* Pause animation on hover for accessibility */
+.animate-continuous-scroll:hover {
+  animation-play-state: paused;
+}
+
+/* Responsive animations for different screen sizes */
+@media (max-width: 768px) {
+  .animate-continuous-scroll {
+    animation-duration: 45s; /* Slightly faster on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .animate-continuous-scroll {
+    animation-duration: 40s; /* Even faster on small screens */
+  }
+}
+
+/* Enhanced luxury card animations */
+.luxury-card-animation {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, box-shadow, border-color;
+}
+
+.luxury-card-animation:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.25),
+    0 0 0 1px hsla(from var(--bronze) h s l / 0.1),
+    inset 0 1px 0 hsla(from var(--bronze-hi) h s l / 0.2);
+}
+
+/* Bronze star animations */
+.bronze-star {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: drop-shadow(0 1px 2px rgba(139, 69, 19, 0.3));
+}
+
+.bronze-star:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 2px 4px rgba(139, 69, 19, 0.4));
+}
+
+/* Carousel fade gradients with enhanced luxury effect */
+.carousel-fade-left {
+  background: linear-gradient(
+    to right,
+    hsl(var(--background)) 0%,
+    hsl(var(--background)) 20%,
+    hsla(from var(--background) h s l / 0.8) 40%,
+    hsla(from var(--background) h s l / 0.4) 60%,
+    hsla(from var(--background) h s l / 0.1) 80%,
+    transparent 100%
+  );
+}
+
+.carousel-fade-right {
+  background: linear-gradient(
+    to left,
+    hsl(var(--background)) 0%,
+    hsl(var(--background)) 20%,
+    hsla(from var(--background) h s l / 0.8) 40%,
+    hsla(from var(--background) h s l / 0.4) 60%,
+    hsla(from var(--background) h s l / 0.1) 80%,
+    transparent 100%
+  );
+}
+
+/* Enhanced bronze gradient with depth */
+.bronze-gradient-enhanced {
+  background: linear-gradient(
+    135deg,
+    var(--bronze-dk) 0%,
+    var(--bronze) 25%,
+    var(--bronze-md) 50%,
+    var(--bronze-lt) 75%,
+    var(--bronze-hi) 100%
+  );
+  box-shadow:
+    0 4px 14px 0 hsla(from var(--bronze-shadow-deep) h s l / 0.3),
+    0 2px 4px 0 hsla(from var(--bronze-shadow-mid) h s l / 0.2),
+    inset 0 1px 0 hsla(from var(--bronze-hi) h s l / 0.4),
+    inset 0 -1px 0 hsla(from var(--bronze-dk) h s l / 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.bronze-gradient-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    hsla(from var(--bronze-hotspot) h s l / 0.3) 50%,
+    transparent 100%
+  );
+  animation: bronze-shimmer 3s ease-in-out infinite;
+}
+
+@keyframes bronze-shimmer {
+  0% {
+    left: -100%;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+/* Line clamp utility for review text */
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .animate-continuous-scroll {
+    animation: none;
+  }
+  
+  .luxury-card-animation {
+    transition: none;
+  }
+  
+  .luxury-card-animation:hover {
+    transform: none;
+  }
+  
+  .bronze-star {
+    transition: none;
+  }
+  
+  .bronze-star:hover {
+    transform: none;
+  }
+  
+  .bronze-gradient-enhanced::before {
+    animation: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .bronze-star {
+    filter: none;
+  }
+  
+  .luxury-card-animation {
+    border: 2px solid;
+  }
+  
+  .carousel-fade-left,
+  .carousel-fade-right {
+    background: none;
+  }
+}
+
+/* Focus management for keyboard navigation */
+.reviews-carousel:focus-within .animate-continuous-scroll {
+  animation-play-state: paused;
+}
+
+/* ========================================
+   LUXURY DESIGN SYSTEM UTILITIES
+   ======================================== */
+
+/* Typography Scale Utilities */
+.text-luxury-xs { font-size: var(--text-xs); line-height: var(--leading-normal); }
+.text-luxury-sm { font-size: var(--text-sm); line-height: var(--leading-normal); }
+.text-luxury-base { font-size: var(--text-base); line-height: var(--leading-normal); }
+.text-luxury-lg { font-size: var(--text-lg); line-height: var(--leading-relaxed); }
+.text-luxury-xl { font-size: var(--text-xl); line-height: var(--leading-relaxed); }
+.text-luxury-2xl { font-size: var(--text-2xl); line-height: var(--leading-tight); }
+.text-luxury-3xl { font-size: var(--text-3xl); line-height: var(--leading-tight); }
+.text-luxury-4xl { font-size: var(--text-4xl); line-height: var(--leading-none); }
+
+/* Luxury Serif Typography for Heroes */
+.font-luxury-serif { font-family: var(--font-serif); }
+.font-luxury-sans { font-family: var(--font-sans); }
+
+/* Letter Spacing Utilities */
+.tracking-paradise { letter-spacing: var(--tracking-paradise); }
+.tracking-luxury-wide { letter-spacing: var(--tracking-wide); }
+.tracking-luxury-wider { letter-spacing: var(--tracking-wider); }
+
+/* Section Spacing System */
+.section-padding-mobile { padding: var(--section-padding-mobile) 0; }
+.section-padding-mobile-lg { padding: var(--section-padding-mobile-lg) 0; }
+.section-padding-desktop { padding: var(--section-padding-desktop) 0; }
+.section-padding-desktop-lg { padding: var(--section-padding-desktop-lg) 0; }
+
+/* Container Padding System */
+.container-padding-mobile { padding-left: var(--container-padding-mobile); padding-right: var(--container-padding-mobile); }
+.container-padding-tablet { padding-left: var(--container-padding-tablet); padding-right: var(--container-padding-tablet); }
+.container-padding-desktop { padding-left: var(--container-padding-desktop); padding-right: var(--container-padding-desktop); }
+
+/* Responsive Section Padding */
+.section-padding-responsive {
+  padding: var(--section-padding-mobile) 0;
+}
+
+@media (min-width: 768px) {
+  .section-padding-responsive {
+    padding: var(--section-padding-desktop) 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-padding-responsive {
+    padding: var(--section-padding-desktop-lg) 0;
+  }
+}
+
+/* Touch Target Optimization */
+.touch-target-min { min-height: var(--touch-target-min); min-width: var(--touch-target-min); }
+.touch-target-optimal { min-height: var(--touch-target-optimal); min-width: var(--touch-target-optimal); }
+
+/* Scroll Container Fix - Ensures proper scroll offset calculation for IntersectionObserver */
+section, main, .container {
+  position: relative;
+}
+
+/* Glass Effect System */
+.glass-card {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: var(--glass-backdrop);
+  box-shadow: var(--glass-shadow);
+  transition: all var(--glass-transition) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 12px 48px rgba(0, 0, 0, 0.15),
+    0 0 0 1px var(--bronze-edge-glow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.dark .glass-card:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Enhanced Card System with Bronze Accents - Matte Finish */
+.luxury-card {
+  background: var(--card);
+  border: 1px solid color-mix(in hsl, var(--border), transparent 60%);
+  border-radius: calc(var(--radius) + 4px);
+  padding: 1.5rem;
+  transition: all var(--bronze-transition-medium) cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(8px);
+  box-shadow: 
+    0 1px 3px 0 rgba(0, 0, 0, 0.04),
+    0 0 0 1px color-mix(in hsl, var(--bronze-200), transparent 92%);
+}
+
+.luxury-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--bronze-edge-glow) 50%, 
+    transparent 100%);
+  opacity: 0;
+  transition: opacity var(--bronze-transition-medium) ease;
+}
+
+.luxury-card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in hsl, var(--bronze-300), transparent 40%);
+  background: color-mix(in hsl, var(--card), var(--bronze-50) 2%);
+  box-shadow:
+    0 12px 32px -8px rgba(0, 0, 0, 0.08),
+    0 4px 12px -2px rgba(0, 0, 0, 0.06),
+    0 0 0 1px var(--bronze-edge-glow),
+    inset 0 1px 0 color-mix(in hsl, var(--bronze-100), transparent 88%);
+}
+
+.luxury-card:hover::before {
+  opacity: 1;
+}
+
+/* Enhanced Amenity Cards - Matte Sophistication */
+.amenity-card-luxury {
+  background: var(--card);
+  border: 1px solid color-mix(in hsl, var(--border), transparent 65%);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+  transition: all var(--bronze-transition-medium) cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  backdrop-filter: blur(12px);
+  box-shadow: 
+    0 1px 2px 0 rgba(0, 0, 0, 0.03),
+    inset 0 1px 0 color-mix(in hsl, var(--bronze-100), transparent 94%);
+}
+
+.amenity-card-luxury:hover {
+  transform: translateY(-1.5px);
+  border-color: color-mix(in hsl, var(--bronze-300), transparent 50%);
+  background: color-mix(in hsl, var(--card), var(--bronze-50) 1%);
+  box-shadow:
+    0 8px 20px -4px rgba(0, 0, 0, 0.06),
+    0 2px 6px -1px rgba(0, 0, 0, 0.04),
+    0 0 0 1px color-mix(in hsl, var(--bronze-300), transparent 60%),
+    inset 0 1px 0 color-mix(in hsl, var(--bronze-100), transparent 85%);
+}
+
+/* Enhanced Review Cards */
+.review-card-luxury {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: calc(var(--radius) + 2px);
+  padding: 1.5rem;
+  transition: all var(--bronze-transition-medium) cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  backdrop-filter: blur(8px);
+}
+
+.review-card-luxury:hover {
+  transform: translateY(-2px) scale(1.01);
+  border-color: var(--bronze-400);
+  box-shadow:
+    0 16px 32px -8px rgba(0, 0, 0, 0.12),
+    0 6px 12px -3px rgba(0, 0, 0, 0.08),
+    0 0 0 1px var(--bronze-400),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Bronze Color Utilities */
+.text-bronze-50 { color: var(--bronze-50); }
+.text-bronze-100 { color: var(--bronze-100); }
+.text-bronze-200 { color: var(--bronze-200); }
+.text-bronze-300 { color: var(--bronze-300); }
+.text-bronze-400 { color: var(--bronze-400); }
+.text-bronze-500 { color: var(--bronze-500); }
+.text-bronze-600 { color: var(--bronze-600); }
+.text-bronze-700 { color: var(--bronze-700); }
+.text-bronze-800 { color: var(--bronze-800); }
+.text-bronze-900 { color: var(--bronze-900); }
+.text-bronze-950 { color: var(--bronze-950); }
+
+.bg-bronze-50 { background-color: var(--bronze-50); }
+.bg-bronze-100 { background-color: var(--bronze-100); }
+.bg-bronze-200 { background-color: var(--bronze-200); }
+.bg-bronze-300 { background-color: var(--bronze-300); }
+.bg-bronze-400 { background-color: var(--bronze-400); }
+.bg-bronze-500 { background-color: var(--bronze-500); }
+.bg-bronze-600 { background-color: var(--bronze-600); }
+.bg-bronze-700 { background-color: var(--bronze-700); }
+.bg-bronze-800 { background-color: var(--bronze-800); }
+.bg-bronze-900 { background-color: var(--bronze-900); }
+.bg-bronze-950 { background-color: var(--bronze-950); }
+
+.border-bronze-200 { border-color: var(--bronze-200); }
+.border-bronze-300 { border-color: var(--bronze-300); }
+.border-bronze-400 { border-color: var(--bronze-400); }
+
+/* Mobile-First Typography Responsive Classes */
+.mobile-heading-scale {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  line-height: var(--leading-tight);
+}
+
+.mobile-text-scale {
+  font-size: clamp(0.875rem, 2.5vw, 1rem);
+  line-height: var(--leading-normal);
+}
+
+.mobile-hero-scale {
+  font-size: clamp(2rem, 8vw, 4rem);
+  line-height: var(--leading-none);
+  font-family: var(--font-serif);
+  font-weight: 700;
+}
+
+/* Mobile Container Utilities */
+.mobile-container-padding {
+  padding-left: var(--container-padding-mobile);
+  padding-right: var(--container-padding-mobile);
+}
+
+@media (min-width: 768px) {
+  .mobile-container-padding {
+    padding-left: var(--container-padding-tablet);
+    padding-right: var(--container-padding-tablet);
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile-container-padding {
+    padding-left: var(--container-padding-desktop);
+    padding-right: var(--container-padding-desktop);
+  }
+}
+
+/* Mobile Card Spacing */
+.mobile-card-spacing {
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .mobile-card-spacing {
+    padding: 1.5rem;
+  }
+}
+
+.mobile-card-hover {
+  transition: all var(--bronze-transition-medium) cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (hover: hover) {
+  .mobile-card-hover:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* Mobile Grid Gap Utilities */
+.mobile-grid-gap-sm {
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .mobile-grid-gap-sm {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-grid-gap-sm {
+    gap: 1.5rem;
+  }
+}
+
+.mobile-grid-gap-normal {
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .mobile-grid-gap-normal {
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-grid-gap-normal {
+    gap: 2rem;
+  }
+}
+
+/* Enhanced Booking Widget Styling */
+.mobile-booking-widget {
+  padding: 1rem;
+  border-radius: calc(var(--radius) + 4px);
+}
+
+@media (min-width: 768px) {
+  .mobile-booking-widget {
+    padding: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile-booking-widget {
+    padding: 2rem;
+  }
+}
+
+/* Mobile Amenity Card Sizing */
+.mobile-amenity-card {
+  min-height: 5rem;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .mobile-amenity-card {
+    min-height: 5.5rem;
+    padding: 1.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-amenity-card {
+    min-height: 6rem;
+    padding: 1.5rem;
+  }
+}
+
+/* Mobile Review Card Sizing */
+.mobile-review-card {
+  min-height: 12rem;
+  width: 18rem;
+}
+
+@media (min-width: 640px) {
+  .mobile-review-card {
+    min-height: 13rem;
+    width: 19rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-review-card {
+    min-height: 14rem;
+    width: 20rem;
+  }
+}
+
+/* Paradise Text Special Styling */
+.paradise-text {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: var(--tracking-paradise);
+  /* PRESERVE EXACT COLOR TREATMENT - DO NOT MODIFY */
+  background: linear-gradient(
+    135deg,
+    var(--bronze-600) 0%,
+    var(--bronze-400) 25%,
+    var(--bronze-200) 50%,
+    var(--bronze-400) 75%,
+    var(--bronze-600) 100%
+  );
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: paradise-shimmer 3s ease-in-out infinite;
+}
+
+@keyframes paradise-shimmer {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+}
+
+/* Accessibility - Reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .paradise-text {
+    animation: none;
+    background-size: 100% 100%;
+  }
+  
+  .glass-card,
+  .luxury-card,
+  .amenity-card-luxury,
+  .review-card-luxury,
+  .mobile-card-hover {
+    transition: none;
+  }
+  
+  .glass-card:hover,
+  .luxury-card:hover,
+  .amenity-card-luxury:hover,
+  .review-card-luxury:hover,
+  .mobile-card-hover:hover {
+    transform: none;
+  }
+}
+
+/* Performance optimizations */
+.reviews-carousel {
+  contain: layout style paint;
+  transform: translateZ(0); /* Force GPU acceleration */
+}
+
+.reviews-carousel * {
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* ========================================
+   MOBILE-SPECIFIC OPTIMIZATIONS
+   ======================================== */
+
+/* Mobile touch target standards - minimum 44px */
+@media (max-width: 768px) {
+  /* Touch-friendly buttons */
+  .mobile-touch-target {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 12px 16px;
+  }
+  
+  /* Form inputs optimized for mobile */
+  .mobile-form-input {
+    min-height: 48px;
+    padding: 14px 16px;
+    font-size: 16px; /* Prevents zoom on iOS */
+    border-radius: 12px;
+  }
+  
+  /* Mobile-optimized grid gaps */
+  .mobile-grid-gap-tight {
+    gap: 12px;
+  }
+  
+  .mobile-grid-gap-normal {
+    gap: 16px;
+  }
+  
+  .mobile-grid-gap-wide {
+    gap: 24px;
+  }
+  
+  /* Enhanced padding for mobile containers */
+  .mobile-container-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Mobile card spacing improvements */
+  .mobile-card-spacing {
+    margin-bottom: 16px;
+    padding: 20px;
+  }
+  
+  /* Mobile typography scaling */
+  .mobile-text-scale {
+    font-size: clamp(14px, 3.5vw, 16px);
+    line-height: 1.5;
+  }
+  
+  .mobile-heading-scale {
+    font-size: clamp(20px, 5vw, 28px);
+    line-height: 1.3;
+  }
+  
+  /* Mobile booking widget optimizations */
+  .mobile-booking-widget {
+    padding: 24px 20px;
+    margin: 0 20px 20px 20px;
+    border-radius: 16px;
+  }
+  
+  /* Mobile amenity grid improvements */
+  .mobile-amenity-card {
+    padding: 20px 16px;
+    min-height: 80px;
+    border-radius: 12px;
+  }
+  
+  /* Mobile review card optimizations */
+  .mobile-review-card {
+    padding: 20px;
+    min-height: 120px;
+    margin-bottom: 16px;
+  }
+  
+  /* Mobile sticky booking bar */
+  .mobile-sticky-booking {
+    padding: 16px 20px;
+    border-top: 1px solid var(--border);
+    background: hsl(var(--background) / 0.98);
+    backdrop-filter: blur(20px);
+    color: var(--foreground);
+  }
+}
+
+/* Small mobile devices - extra optimizations */
+@media (max-width: 480px) {
+  /* Tighter spacing for small screens */
+  .small-mobile-padding {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .small-mobile-grid-gap {
+    gap: 8px;
+  }
+  
+  /* Enhanced touch targets for small screens */
+  .small-mobile-touch {
+    min-height: 48px;
+    padding: 16px 20px;
+  }
+  
+  /* Typography adjustments for readability */
+  .small-mobile-text {
+    font-size: clamp(13px, 4vw, 15px);
+  }
+  
+  .small-mobile-heading {
+    font-size: clamp(18px, 6vw, 24px);
+  }
+}
+
+/* Mobile-first responsive utilities */
+.mobile-hidden {
+  display: none;
+}
+
+.mobile-block {
+  display: block;
+}
+
+.mobile-flex {
+  display: flex;
+}
+
+.mobile-grid {
+  display: grid;
+}
+
+/* Responsive grid templates for mobile */
+.mobile-grid-1 {
+  grid-template-columns: 1fr;
+}
+
+.mobile-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Enhanced mobile card hover states */
+@media (max-width: 768px) {
+  .mobile-card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .mobile-card-hover:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Mobile form improvements */
+@media (max-width: 768px) {
+  .mobile-form-stack {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .mobile-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .mobile-form-button {
+    width: 100%;
+    min-height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 24px;
+    border-radius: 12px;
+  }
+}
+
+/* Mobile accessibility improvements */
+@media (max-width: 768px) {
+  /* Larger focus indicators for mobile */
+  .mobile-focus:focus-visible {
+    outline: 3px solid var(--ring);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px hsl(var(--ring) / 0.2);
+  }
+  
+  /* Enhanced contrast for mobile */
+  .mobile-high-contrast {
+    color: var(--foreground);
+    background: var(--background);
+  }
+  
+  /* Dark mode specific mobile enhancements */
+  .dark .mobile-sticky-booking {
+    border-top-color: hsl(var(--border));
+    box-shadow: 0 -1px 3px hsl(var(--foreground) / 0.1);
+  }
+  
+  .dark .mobile-form-input:focus {
+    border-color: var(--ring);
+    box-shadow: 0 0 0 3px hsl(var(--ring) / 0.2);
+  }
+}
+
+/* Mobile landscape optimizations */
+@media (max-width: 768px) and (orientation: landscape) {
+  .mobile-landscape-compact {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  .mobile-landscape-header {
+    min-height: 60px;
+  }
+}
+
+/* ========================================
+   LUXURY DESIGN SYSTEM UTILITIES
+   ======================================== */
+
+/* Section Padding Responsive - Consistent luxury spacing */
+.section-padding-responsive {
+  padding-top: var(--section-padding-mobile);
+  padding-bottom: var(--section-padding-mobile);
+}
+
+@media (min-width: 768px) {
+  .section-padding-responsive {
+    padding-top: var(--section-padding-desktop);
+    padding-bottom: var(--section-padding-desktop);
+  }
+}
+
+/* Enhanced Loading States with Bronze Theming */
+.loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--bronze-100) 0%,
+    var(--bronze-200) 50%,
+    var(--bronze-100) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 0.75rem;
+}
+
+.loading-skeleton-luxury {
+  background: linear-gradient(
+    90deg,
+    var(--bronze-50) 0%,
+    var(--bronze-100) 50%,
+    var(--bronze-50) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+  border-radius: 0.75rem;
+  min-height: 1.5rem;
+}
+
+/* Enhanced Amenity Cards with luxury theming */
+.amenity-card-luxury {
+  background: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.amenity-card-luxury:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.1);
+  border-color: var(--bronze-200);
+}
+
+/* Review Cards with luxury theming */
+.review-card-luxury {
+  background: var(--card);
+  border: 1px solid var(--bronze-100);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.review-card-luxury:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--bronze-200);
+}
+
+/* Button variants for luxury system */
+.btn-bronze-variant {
+  background: linear-gradient(
+    135deg,
+    var(--bronze-600) 0%,
+    var(--bronze-500) 50%,
+    var(--bronze-400) 100%
+  );
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-bronze-variant:hover {
+  background: linear-gradient(
+    135deg,
+    var(--bronze-700) 0%,
+    var(--bronze-600) 50%,
+    var(--bronze-500) 100%
+  );
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Font family utilities for luxury typography */
+.font-luxury-serif {
+  font-family: var(--font-serif);
+}
+
+.font-luxury-sans {
+  font-family: var(--font-sans);
+}
+
+/* Luxury Card Animations */
+.luxury-card {
+  position: relative;
+  overflow: hidden;
+  transition: all var(--bronze-transition-medium) ease;
+  border: 1px solid var(--glass-bronze-border);
+  background: var(--glass-bronze);
+  backdrop-filter: var(--glass-backdrop);
+}
+
+.luxury-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--bronze-shimmer);
+  transition: all var(--bronze-transition-slow) ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.luxury-card:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.1),
+    0 0 30px var(--glass-bronze-highlight);
+  border-color: var(--bronze-edge-glow);
+}
+
+.luxury-card:hover::before {
+  left: 100%;
+}
+
+/* Enhanced Bronze Button with Shimmer */
+.btn-bronze-enhanced {
+  position: relative;
+  background: linear-gradient(135deg, var(--bronze-dk) 0%, var(--bronze) 25%, var(--bronze-md) 50%, var(--bronze-lt) 75%, var(--bronze) 100%);
+  color: white;
+  border: none;
+  overflow: hidden;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    inset 0 1px 0 var(--bronze-rim-light);
+}
+
+.btn-bronze-enhanced::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%);
+  transition: all 1.2s ease;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.btn-bronze-enhanced:hover {
+  background: linear-gradient(130deg, var(--bronze-dk) 0%, var(--bronze) 20%, var(--bronze-md) 45%, var(--bronze-lt) 70%, var(--bronze-hi) 100%);
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 
+    0 8px 20px rgba(0, 0, 0, 0.2),
+    0 0 20px hsla(from var(--bronze-edge-glow) h s l / 0.5),
+    inset 0 1px 0 var(--bronze-rim-light);
+}
+
+.btn-bronze-enhanced:hover::before {
+  left: 100%;
+}
+
+.btn-bronze-enhanced:active {
+  background: linear-gradient(135deg, var(--bronze-900) 0%, var(--bronze-800) 25%, var(--bronze-700) 50%, var(--bronze-600) 75%, var(--bronze-700) 100%);
+  transform: translateY(0) scale(0.98);
+  transition: all 0.15s ease;
+}
+
+.btn-bronze-enhanced:disabled {
+  opacity: 0.6;
+  transform: none;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+/* Glass Morphism Cards */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: calc(var(--radius) + 4px);
+  transition: all var(--glass-transition) ease;
+}
+
+.glass-card:hover {
+  background: var(--glass-bronze);
+  border-color: var(--glass-bronze-border);
+  box-shadow: var(--glass-shadow);
+}
+
+/* Bronze Skeleton Loading */
+.bronze-skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bronze-100) 0%,
+    var(--bronze-200) 50%,
+    var(--bronze-100) 100%
+  );
+  background-size: 200% 100%;
+  animation: bronzeSkeletonLoading 2s infinite ease-in-out;
+}
+
+/* Scroll Reveal Animations */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: all 0.6s ease;
+}
+
+.scroll-reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-reveal-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: all 0.6s ease;
+}
+
+.scroll-reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.scroll-reveal-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: all 0.6s ease;
+}
+
+.scroll-reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Photo Gallery Enhancement */
+.gallery-image-luxury {
+  transition: all var(--bronze-transition-medium) ease;
+  border-radius: var(--radius);
+  overflow: hidden;
+  position: relative;
+}
+
+.gallery-image-luxury::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    transparent 0%,
+    var(--bronze-base) 100%
+  );
+  opacity: 0;
+  transition: all var(--bronze-transition-medium) ease;
+  mix-blend-mode: multiply;
+}
+
+.gallery-image-luxury:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-image-luxury:hover::after {
+  opacity: 0.1;
+}
+
+/* Dark mode enhancements for luxury components */
+.dark .loading-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--bronze-800) 0%,
+    var(--bronze-600) 50%,
+    var(--bronze-800) 100%
+  );
+}
+
+.dark .loading-skeleton-luxury {
+  background: linear-gradient(
+    90deg,
+    var(--bronze-900) 0%,
+    var(--bronze-700) 50%,
+    var(--bronze-900) 100%
+  );
+}
+
+.dark .amenity-card-luxury {
+  border-color: var(--bronze-800);
+}
+
+.dark .amenity-card-luxury:hover {
+  border-color: var(--bronze-600);
+}
+
+.dark .review-card-luxury {
+  border-color: var(--bronze-800);
+  background: var(--card);
+}
+
+.dark .review-card-luxury:hover {
+  border-color: var(--bronze-600);
+}
+
+.dark .luxury-card {
+  background: rgba(184, 134, 71, 0.05);
+  border-color: rgba(184, 134, 71, 0.15);
+}
+
+.dark .bronze-skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--bronze-800) 0%,
+    var(--bronze-600) 50%,
+    var(--bronze-800) 100%
+  );
+  background-size: 200% 100%;
+}
+
+/* Enhanced Carousel Scrolling Utilities */
+.carousel-container {
+  position: relative;
+  scroll-behavior: var(--carousel-scroll-behavior);
+  touch-action: var(--carousel-touch-action);
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+
+.carousel-content {
+  touch-action: pan-x;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.carousel-item-enhanced {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* Mobile touch enhancements */
+@media (max-width: 768px) {
+  .carousel-container {
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .carousel-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carousel-item-enhanced {
+    touch-action: manipulation;
+  }
+}
+
+/* Desktop wheel scrolling */
+@media (min-width: 769px) {
+  .carousel-container {
+    cursor: grab;
+  }
+  
+  .carousel-container:active {
+    cursor: grabbing;
+  }
+}

@@ -1,0 +1,66 @@
+# Robots.txt for VacationRentalOahu.co
+# Generated on: 2024-09-19
+
+User-agent: *
+Allow: /
+
+# Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Disallow admin areas and internal APIs
+Disallow: /admin/
+Disallow: /admin/*
+Disallow: /api/
+Disallow: /api/*
+Disallow: /auth
+Disallow: /auth/*
+Disallow: /*.json$
+
+# Disallow error and utility pages
+Disallow: /not-found
+
+# Disallow checkout and booking processes to prevent indexing of incomplete bookings
+Disallow: /booking/checkout
+Disallow: /booking/confirmation
+Disallow: /booking/details
+
+# Allow important pages for SEO
+Allow: /
+Allow: /stay
+Allow: /booking
+Allow: /contact
+Allow: /policies
+
+# Crawl delay for respectful crawling (in seconds)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://vacationrentaloahu.co/sitemap.xml
+
+# Host directive for canonical domain
+Host: https://vacationrentaloahu.co

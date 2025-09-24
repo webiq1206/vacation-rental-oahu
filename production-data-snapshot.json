@@ -1,0 +1,28 @@
+{
+  "README": "Production Database Snapshot for VacationRentalOahu.co",
+  "created": "2025-09-24",
+  "description": "Complete data export from development environment to populate production database",
+  
+  "INSTRUCTIONS": "This file contains all the data your live site needs. Use your admin panel at https://vacationrentaloahu.co/admin to add this content.",
+  
+  "property": {
+    "title": "Chinaman's Ocean Front Beach House",
+    "description": "Welcome to our spectacular Ocean Front Beach House. This beautiful escape offers stunning views and is perfectly situated between Kualoa Ranch (Jurassic Park/Lost), the gorgeous Pacific Ocean, and the renowned Chinamans Hat Island. It is the ideal spot for one or two families to come together and rejuvenate on your own private beach, all while enjoying enchanting sunrises.",
+    "address": "49-541 Kamehameha Hwy, Kaneohe, HI 96744",
+    "lat": 21.51360000,
+    "lng": -157.84010000,
+    "check_in_time": "15:00",
+    "check_out_time": "10:00",
+    "max_guests": 8,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "rating": 4.93,
+    "review_count": 55,
+    "general_location": "Kaneohe, Hawaii"
+  },
+  
+  "photos_count": 18,
+  "amenities_count": 71,
+  "reviews_count": 49,
+  "nearby_attractions_count": 8
+}

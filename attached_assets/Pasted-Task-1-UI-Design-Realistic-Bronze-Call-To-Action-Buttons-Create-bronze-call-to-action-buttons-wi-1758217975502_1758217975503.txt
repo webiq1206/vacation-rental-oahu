@@ -1,0 +1,25 @@
+Task 1: UI Design — Realistic Bronze Call-To-Action Buttons
+
+Create bronze call-to-action buttons with a realistic metallic bronze effect. The styling must use CSS techniques such as layered gradients, shadows, lighting effects, and subtle highlights to simulate the dimensionality and sheen of real bronze. These effects must be coded directly into the Replit project using CSS or embedded styles. Avoid using a flat bronze color or relying only on a single hex code.
+
+Include a working hover effect that visually reinforces the metallic interaction, such as light reflection, glow, or depth change. All styling must use the project's brand color palette and be responsive across screen sizes.
+
+Task 2: Page Navigation Behavior
+
+Ensure that when navigating between internal pages or sections, the scroll position always starts at the top. This behavior must be handled directly in the Replit project using JavaScript or framework-based routing logic if applicable.
+
+Task 3: Airbnb and Vrbo Listings Integration
+
+Build a system that integrates listings from both Airbnb and Vrbo. It must fetch availability data from both platforms using their official APIs or iCal feeds. The system must check for booking conflicts and synchronize availability in real time to avoid double bookings.
+
+Implement proper handling of authentication, error states, and rate limits. Use scheduled tasks, background workers, or serverless functions within Replit’s capabilities to maintain real-time sync.
+
+Task 4: Homepage Navigation Header Behavior
+
+On the homepage, the navigation header must start with a transparent background. When the user scrolls beyond a specific point (for example, 50 pixels), it should change to a solid background color from the brand palette. Use smooth transitions and apply a subtle shadow to enhance visibility. Implement this behavior using CSS and JavaScript directly in the Replit environment.
+
+Task 5: Interactive Map and Icon Design
+
+The interactive map on the site must be fully functional and responsive. It should support zooming, panning, marker interaction, and work seamlessly on all device types. Ensure it loads efficiently and integrates smoothly into the page layout without affecting performance.
+
+All icons used across the site, including those on the map, must follow the brand color scheme and maintain an elegant, consistent visual style. Use custom or high-quality SVG icons and ensure they are optimized for web performance within Replit.

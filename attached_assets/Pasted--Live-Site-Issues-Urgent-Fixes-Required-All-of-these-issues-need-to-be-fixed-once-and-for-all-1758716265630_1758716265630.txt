@@ -1,0 +1,81 @@
+## Live Site Issues — Urgent Fixes Required
+
+**All of these issues need to be fixed once and for all and permanently. Do not make any other changes unless I specifically instruct you to.**
+
+I've uploaded a screenshot of the current live homepage: [https://vacationrentaloahu.co](https://vacationrentaloahu.co)
+
+Please address the following critical issues, which remain unresolved:
+
+---
+
+### 1. Changes Not Reflecting on Live Site
+- When I republish the project in Replit, changes are **not reflected on the live site**: [https://vacationrentaloahu.co](https://vacationrentaloahu.co)
+- It appears that all edits made in the **development environment** are correct and working as expected, but these updates are **not being published** to the live frontend.
+- Actions:
+  - Confirm that the deployment process is correctly configured to push changes to the production domain.
+  - Verify that the build completes successfully and is targeting the correct environment.
+  - Check for caching issues, DNS misconfiguration, or Replit hosting errors.
+
+---
+
+### 2. Booking Form Not Loading
+- The booking form exists on the site but **fails to load properly**.
+- This issue has been raised multiple times without resolution.
+- Action: Ensure the booking form is fully functional and loads correctly on the frontend.
+- It must also include **Stripe integration** so guests can complete a real booking with payment.
+
+---
+
+### 3. Property Images Not Displaying
+- The correct property images are not appearing on the homepage.
+- These images should be uploaded via the admin panel and displayed dynamically on the frontend.
+- Action: Confirm that image upload, retrieval, and rendering logic are correctly implemented.
+
+---
+
+### 4. Amenities Not Showing
+- The amenities section currently displays no content.
+- Amenities must be entered through the admin panel and shown dynamically on the site.
+- Action: Verify that amenities are saved and displayed correctly.
+
+---
+
+### 5. Map and Location Errors
+- The embedded map is not functioning as expected:
+  - It appears to display one map while trying to load another.
+  - The property location radius is incorrect.
+- Correct address to use:  
+  `49-541 Kamehameha Hwy, Kaneohe, HI 96744`
+- Current error from Google Maps:  
+  `"The map is initialized without a valid Map ID, which will prevent use of Advanced Markers."`
+- Additional Issue: Nearby attractions are not displayed.
+- Actions:
+  - Ensure the correct Google Maps API Key and a valid Map ID are in use.
+  - Fix the map initialization error.
+  - Confirm correct rendering of the location and nearby attractions.
+
+---
+
+### 6. Guest Reviews Not Displaying
+- The guest reviews section is currently empty.
+- Reviews must be added in the admin panel and displayed dynamically on the frontend.
+- Action: Ensure that review data is present and correctly linked to the frontend component.
+
+---
+
+### 7. "Luxury" Wording Not Updated
+- I've previously requested that the word **"luxury"** be removed or replaced throughout the entire site.
+- This change has not been made.
+- Action: Search the entire project (frontend and backend where applicable) and replace/remove all instances of the word "luxury" with the appropriate new wording.
+
+---
+
+### Final Checklist
+- [ ] All data is synced between the admin panel and the frontend.
+- [ ] Dynamic content (images, amenities, reviews, etc.) is rendering properly.
+- [ ] External APIs (Google Maps, Stripe) are initialized with valid credentials.
+- [ ] Booking and payment functionality (via Stripe) is fully operational.
+- [ ] Deployment is successfully pushing updates to the live domain.
+- [ ] All instances of the word "luxury" have been removed or replaced as instructed.
+
+Please confirm once each issue is resolved or if further clarification is needed.

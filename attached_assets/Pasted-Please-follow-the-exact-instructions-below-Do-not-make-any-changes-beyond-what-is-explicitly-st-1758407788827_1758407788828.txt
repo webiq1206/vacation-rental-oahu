@@ -1,0 +1,81 @@
+Please follow the exact instructions below. Do **not** make any changes beyond what is explicitly stated. Each instruction must end with:  
+**"Do not make any other changes unless specifically instructed to."**
+
+1. **Brand Name Replacement**
+   - Replace **every instance** of the word **“Villa”** with **“Beach House”** in all brand-related **text** across the site.
+   - This includes navigation, headings, footer, and any references to the brand name in content.
+   - Do not modify the logo or image assets.
+   - **Do not make any other changes unless specifically instructed to.**
+
+2. **Typography Update**
+   - Apply a modern, elevated typeface that suits a minimalist, Airbnb-inspired design.
+   - Update the font for all:
+     - **Headings**
+     - **Body text**
+     - **Buttons**
+   - Ensure visual consistency across all pages.
+   - Do not change layout, size, or spacing unless necessary for font compatibility.
+   - **Do not make any other changes unless specifically instructed to.**
+
+3. **Amenities Section**
+   - Limit the displayed amenities to **6 at a time**.
+   - Use the following Hawaii-specific items only:  
+     `Beachfront`, `Ocean View`, `Mountain View`, `Snorkeling Gear`, `Surfboards`, `Outdoor Shower`.
+   - Do not add extra amenities or make layout changes beyond what is needed to limit to 6 items.
+   - **Do not make any other changes unless specifically instructed to.**
+
+4. **Background Colors**
+   - Replace **all solid white backgrounds (#FFFFFF)** with `#fbfbf9`.
+   - This includes, but is not limited to, the **booking form** and any other plain white background elements.
+   - Be precise: only change #FFFFFF values, not near-white tones.
+   - **Do not make any other changes unless specifically instructed to.**
+
+5. **Page Builder**
+   - Add **drag-and-drop editing capability** to the admin backend for every page.
+   - Allow the user to rearrange **sections and content blocks** without editing code.
+   - Existing content structure should remain unchanged until the user rearranges it manually.
+   - **Do not make any other changes unless specifically instructed to.**
+
+6. **Nearby Attractions**
+   - Remove all **contact information** from the Nearby Attractions section.
+   - Only display:
+     - Attraction **name**
+     - A **short description**
+     - A **relevant image**
+   - Use royalty-free images from **Pexels** or similar.
+   - Use the **OpenAI API** to generate accurate attraction descriptions.
+   - **Do not make any other changes unless specifically instructed to.**
+
+7. **Google Maps Integration**
+   - Add the **Google Maps API** integration to:
+     - Display the property’s location on the **listing page**
+     - Show attraction locations in the **Attractions/Map section**
+   - Wait for the API key before implementation.
+   - **Do not make any other changes unless specifically instructed to.**
+
+8. **Review Carousel**
+   - Ensure the review carousel:
+     - **Auto-rotates** smoothly
+     - Is **fully functional** and responsive
+   - Do not modify review content or styling.
+   - **Do not make any other changes unless specifically instructed to.**
+
+9. **Mobile Hero Section**
+   - Ensure the **video background** in the hero section displays correctly and responsively on all mobile devices.
+   - Maintain original aspect ratio and performance.
+   - **Do not make any other changes unless specifically instructed to.**
+
+10. **Header Navigation**
+    - On the homepage:
+      - Set the header menu to **100% transparent** at the top.
+      - On scroll, transition into a solid **off-white background (#fbfbf9)**.
+    - On all other pages:
+      - Header should have a static **#fbfbf9** background from the start.
+    - Do not change navigation links or structure.
+    - **Do not make any other changes unless specifically instructed to.**
+
+11. **Auth Page Image**
+    - Replace the existing image on the `/auth` page with a **high-resolution image** of the property.
+    - Wait for image upload or direct link from the user.
+    - Do not modify the form or layout.
+    - **Do not make any other changes unless specifically instructed to.**

@@ -1,0 +1,1689 @@
+{
+  "exportDate": "2025-09-24T17:43:22.066Z",
+  "version": "1.0.0",
+  "tables": {
+    "property": [
+      {
+        "id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "title": "Chinaman's Ocean Front Beach House",
+        "description": "Welcome to our spectacular Ocean Front Beach House. This beautiful escape offers stunning views and is perfectly situated between Kualoa Ranch (Jurassic Park/Lost), the gorgeous Pacific Ocean, and the renowned Chinamans Hat Island. It is the ideal spot for one or two families to come together and rejuvenate on your own private beach, all while enjoying enchanting sunrises.",
+        "address": "49-541 Kamehameha Hwy, Kaneohe, HI 96744",
+        "lat": "21.51360000",
+        "lng": "-157.84010000",
+        "check_in_time": "3:00 PM",
+        "check_out_time": "10:00 AM",
+        "max_guests": 8,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "rating": "4.93",
+        "review_count": 55,
+        "created_at": "2025-09-18T15:01:47.133Z",
+        "general_location": "Kaneohe, Hawaii",
+        "is_superhost": false,
+        "marketing_description": null
+      }
+    ],
+    "amenities": [
+      {
+        "id": "d9092aff-c2d4-4985-94b0-22af8c6d24b8",
+        "name": "Dishwasher",
+        "icon": "utensils",
+        "category": "Kitchen & Dining",
+        "description": "Built-in dishwasher",
+        "created_at": "2025-09-18T15:01:47.333Z",
+        "featured": false
+      },
+      {
+        "id": "8d1a5f8b-6fe6-4b52-95f5-973fa9cb2574",
+        "name": "Microwave",
+        "icon": "zap",
+        "category": "Kitchen & Dining",
+        "description": "Countertop microwave",
+        "created_at": "2025-09-18T15:01:47.358Z",
+        "featured": false
+      },
+      {
+        "id": "aba40692-348b-4892-b3b2-c43e7886c815",
+        "name": "Coffee Maker",
+        "icon": "coffee",
+        "category": "Kitchen & Dining",
+        "description": "Drip coffee maker",
+        "created_at": "2025-09-18T15:01:47.382Z",
+        "featured": false
+      },
+      {
+        "id": "9050ef32-2b99-4261-a7db-f13796d9f7ec",
+        "name": "Refrigerator",
+        "icon": "refrigerator",
+        "category": "Kitchen & Dining",
+        "description": "Full-size refrigerator with freezer",
+        "created_at": "2025-09-18T15:01:47.406Z",
+        "featured": false
+      },
+      {
+        "id": "b8c79a83-aaa9-4375-8df9-948cce117b3e",
+        "name": "Stove & Oven",
+        "icon": "flame",
+        "category": "Kitchen & Dining",
+        "description": "Gas stove and oven",
+        "created_at": "2025-09-18T15:01:47.430Z",
+        "featured": false
+      },
+      {
+        "id": "ab7f1116-68c2-4053-8f74-b015d99b4431",
+        "name": "Blender",
+        "icon": "utensils",
+        "category": "Kitchen & Dining",
+        "description": "High-speed blender",
+        "created_at": "2025-09-18T15:01:47.454Z",
+        "featured": false
+      },
+      {
+        "id": "fd5990f4-7c89-4eba-9d2c-b1677e65526d",
+        "name": "Toaster",
+        "icon": "zap",
+        "category": "Kitchen & Dining",
+        "description": "4-slice toaster",
+        "created_at": "2025-09-18T15:01:47.476Z",
+        "featured": false
+      },
+      {
+        "id": "898f9f19-9358-464f-b0a9-a73a839ed902",
+        "name": "Dining Table",
+        "icon": "utensils",
+        "category": "Kitchen & Dining",
+        "description": "Dining table seats 8",
+        "created_at": "2025-09-18T15:01:47.500Z",
+        "featured": false
+      },
+      {
+        "id": "c5de3f6b-d555-47c2-bec0-0daffdc5eb1c",
+        "name": "Cooking Basics",
+        "icon": "utensils",
+        "category": "Kitchen & Dining",
+        "description": "Pots, pans, and cooking utensils",
+        "created_at": "2025-09-18T15:01:47.524Z",
+        "featured": false
+      },
+      {
+        "id": "474ebdb6-ac00-4774-b787-431921069dd9",
+        "name": "Outdoor Shower",
+        "icon": "droplets",
+        "category": "Outdoor & Recreation",
+        "description": "Refreshing outdoor shower",
+        "created_at": "2025-09-18T15:01:48.056Z",
+        "featured": false
+      },
+      {
+        "id": "edd3da08-9aa9-4795-bfee-60f6c57b4d3d",
+        "name": "BBQ Grill",
+        "icon": "flame",
+        "category": "Outdoor & Recreation",
+        "description": "Gas BBQ grill",
+        "created_at": "2025-09-18T15:01:48.079Z",
+        "featured": false
+      },
+      {
+        "id": "875a0737-00a9-45b7-b855-1214795d62f0",
+        "name": "Patio Furniture",
+        "icon": "chair",
+        "category": "Outdoor & Recreation",
+        "description": "Comfortable outdoor seating",
+        "created_at": "2025-09-18T15:01:48.103Z",
+        "featured": false
+      },
+      {
+        "id": "e2c681a2-ce88-4da6-be5b-018c32712f9f",
+        "name": "Fire Pit",
+        "icon": "flame",
+        "category": "Outdoor & Recreation",
+        "description": "Beachfront fire pit",
+        "created_at": "2025-09-18T15:01:48.127Z",
+        "featured": false
+      },
+      {
+        "id": "89895706-916c-4508-8f6d-2bf05942ba9e",
+        "name": "Hammock",
+        "icon": "sparkles",
+        "category": "Outdoor & Recreation",
+        "description": "Relaxing hammock",
+        "created_at": "2025-09-18T15:01:48.150Z",
+        "featured": false
+      },
+      {
+        "id": "22038e1d-44ee-423d-9786-363be3d8f243",
+        "name": "Pack 'n Play",
+        "icon": "baby",
+        "category": "Family & Kids",
+        "description": "Portable crib for babies",
+        "created_at": "2025-09-18T15:01:48.175Z",
+        "featured": false
+      },
+      {
+        "id": "b0456438-20e5-4a70-a089-11e4d73a2683",
+        "name": "High Chair",
+        "icon": "baby",
+        "category": "Family & Kids",
+        "description": "Baby high chair",
+        "created_at": "2025-09-18T15:01:48.197Z",
+        "featured": false
+      },
+      {
+        "id": "32383504-4b8b-4783-82d7-6cbc8ec84976",
+        "name": "Beach Toys",
+        "icon": "gamepad2",
+        "category": "Family & Kids",
+        "description": "Sand toys and beach games",
+        "created_at": "2025-09-18T15:01:48.221Z",
+        "featured": false
+      },
+      {
+        "id": "136c1dd4-6759-43ce-bab1-dc70b40d1d25",
+        "name": "Children's Books",
+        "icon": "book",
+        "category": "Family & Kids",
+        "description": "Kids' books and games",
+        "created_at": "2025-09-18T15:01:48.244Z",
+        "featured": false
+      },
+      {
+        "id": "c2afb106-2b13-43e9-be02-a3de2167b9b7",
+        "name": "Board Games",
+        "icon": "gamepad2",
+        "category": "Family & Kids",
+        "description": "Family board games",
+        "created_at": "2025-09-18T15:01:48.268Z",
+        "featured": false
+      },
+      {
+        "id": "a3cef7bd-c8ab-4e79-81c1-cf3d6ecc1942",
+        "name": "Ceiling Fans",
+        "icon": "wind",
+        "category": "Comfort & Convenience",
+        "description": "Ceiling fans in all rooms",
+        "created_at": "2025-09-18T15:01:48.328Z",
+        "featured": false
+      },
+      {
+        "id": "7cb6b5b9-6144-461d-b83f-83a98ec54380",
+        "name": "Iron & Board",
+        "icon": "shirt",
+        "category": "Comfort & Convenience",
+        "description": "Iron and ironing board",
+        "created_at": "2025-09-18T15:01:48.398Z",
+        "featured": false
+      },
+      {
+        "id": "cdc00c2d-336a-42de-a612-ed42f6bb2650",
+        "name": "Hangers",
+        "icon": "shirt",
+        "category": "Comfort & Convenience",
+        "description": "Plenty of hangers",
+        "created_at": "2025-09-18T15:01:48.421Z",
+        "featured": false
+      },
+      {
+        "id": "63ac7512-2b5e-4fbd-bad0-304fbb3d1898",
+        "name": "Extra Pillows",
+        "icon": "moon",
+        "category": "Comfort & Convenience",
+        "description": "Additional pillows available",
+        "created_at": "2025-09-18T15:01:48.445Z",
+        "featured": false
+      },
+      {
+        "id": "89c73feb-3f87-4970-898a-51a80dc311ea",
+        "name": "Extra Blankets",
+        "icon": "moon",
+        "category": "Comfort & Convenience",
+        "description": "Extra blankets provided",
+        "created_at": "2025-09-18T15:01:48.473Z",
+        "featured": false
+      },
+      {
+        "id": "e234ea3f-6539-4341-a23d-6be776b8e62d",
+        "name": "Kayaks",
+        "icon": "waves",
+        "category": "Water Sports",
+        "description": "Ocean kayaks for exploration",
+        "created_at": "2025-09-18T15:01:48.496Z",
+        "featured": false
+      },
+      {
+        "id": "38653769-ca06-4845-a5d8-2acd0f0420b0",
+        "name": "Stand-Up Paddleboards",
+        "icon": "waves",
+        "category": "Water Sports",
+        "description": "SUPs for ocean adventures",
+        "created_at": "2025-09-18T15:01:48.520Z",
+        "featured": false
+      },
+      {
+        "id": "053b1c86-e679-48d2-9934-3ffa799db6ed",
+        "name": "Surfboards",
+        "icon": "waves",
+        "category": "Water Sports",
+        "description": "Surfboards for all skill levels",
+        "created_at": "2025-09-18T15:01:48.543Z",
+        "featured": false
+      },
+      {
+        "id": "6913073f-440c-459d-930d-a02dad4d4e4a",
+        "name": "Snorkeling Gear",
+        "icon": "waves",
+        "category": "Water Sports",
+        "description": "Masks and snorkels provided",
+        "created_at": "2025-09-18T15:01:48.565Z",
+        "featured": false
+      },
+      {
+        "id": "5f648fe0-364a-4147-9c08-aa1c8895ec21",
+        "name": "Beach Cooler",
+        "icon": "package",
+        "category": "Water Sports",
+        "description": "Large cooler for beach days",
+        "created_at": "2025-09-18T15:01:48.590Z",
+        "featured": false
+      },
+      {
+        "id": "ddb26c1c-1fa0-4f71-8d49-09e5aaf4366f",
+        "name": "Boogie Boards",
+        "icon": "waves",
+        "category": "Water Sports",
+        "description": "Fun boogie boards",
+        "created_at": "2025-09-18T15:01:48.614Z",
+        "featured": false
+      },
+      {
+        "id": "9b49ff64-e666-49f1-bd16-33308c33ed34",
+        "name": "Smoke Detector",
+        "icon": "shield",
+        "category": "Safety & Security",
+        "description": "Smoke detection system",
+        "created_at": "2025-09-18T15:01:48.638Z",
+        "featured": false
+      },
+      {
+        "id": "68288b95-71bd-4567-8a78-f2ccac72b8bf",
+        "name": "Carbon Monoxide Detector",
+        "icon": "shield",
+        "category": "Safety & Security",
+        "description": "CO detection for safety",
+        "created_at": "2025-09-18T15:01:48.662Z",
+        "featured": false
+      },
+      {
+        "id": "b21688ea-4394-4228-945d-938ee96c41ec",
+        "name": "Fire Extinguisher",
+        "icon": "shield",
+        "category": "Safety & Security",
+        "description": "Emergency fire extinguisher",
+        "created_at": "2025-09-18T15:01:48.686Z",
+        "featured": false
+      },
+      {
+        "id": "3a2a6d4c-ee39-4d97-a9d5-c0b5d9e4e3d5",
+        "name": "Lockbox",
+        "icon": "key",
+        "category": "Safety & Security",
+        "description": "Secure key lockbox",
+        "created_at": "2025-09-18T15:01:48.733Z",
+        "featured": false
+      },
+      {
+        "id": "de81d729-e697-4432-a10d-8dc8d6505a7a",
+        "name": "Bed Linens",
+        "icon": "moon",
+        "category": "Bedroom & Sleep",
+        "description": "High-quality bed linens",
+        "created_at": "2025-09-18T15:01:48.760Z",
+        "featured": false
+      },
+      {
+        "id": "e04dff3c-307c-4bd0-a628-0fb020888e99",
+        "name": "Pillows",
+        "icon": "moon",
+        "category": "Bedroom & Sleep",
+        "description": "Comfortable pillows",
+        "created_at": "2025-09-18T15:01:48.784Z",
+        "featured": false
+      },
+      {
+        "id": "156aa788-1da8-499d-9dcc-38d535147381",
+        "name": "Blackout Curtains",
+        "icon": "moon",
+        "category": "Bedroom & Sleep",
+        "description": "Room darkening curtains",
+        "created_at": "2025-09-18T15:01:48.808Z",
+        "featured": false
+      },
+      {
+        "id": "c223631f-996b-4bc3-8f8d-5620a3fa48b5",
+        "name": "Closet Space",
+        "icon": "shirt",
+        "category": "Bedroom & Sleep",
+        "description": "Ample closet storage",
+        "created_at": "2025-09-18T15:01:48.833Z",
+        "featured": false
+      },
+      {
+        "id": "77b79f65-6037-4087-8a5b-c17d2107220a",
+        "name": "Clean Towels",
+        "icon": "shirt",
+        "category": "Bathroom & Personal Care",
+        "description": "Fresh towels provided",
+        "created_at": "2025-09-18T15:01:47.671Z",
+        "featured": false
+      },
+      {
+        "id": "826f84e8-c4c5-48b5-b4d9-7a50d4322f75",
+        "name": "Security System",
+        "icon": "shield",
+        "category": "Safety & Security",
+        "description": "Property security system",
+        "created_at": "2025-09-18T15:01:48.709Z",
+        "featured": true
+      },
+      {
+        "id": "e6eed490-c50a-4ef5-bded-282a7c51cc3d",
+        "name": "EV Charger",
+        "icon": "battery",
+        "category": "Transportation & Parking",
+        "description": "Electric vehicle charging station",
+        "created_at": "2025-09-18T15:01:48.884Z",
+        "featured": true
+      },
+      {
+        "id": "7e9ba89e-57a1-46ca-93d3-48d86bd59c98",
+        "name": "Full Kitchen",
+        "icon": "utensils",
+        "category": "Kitchen & Dining",
+        "description": "Complete kitchen with all appliances",
+        "created_at": "2025-09-18T15:01:47.307Z",
+        "featured": true
+      },
+      {
+        "id": "b00359ec-7f13-43e0-9ddf-8d0a73f79548",
+        "name": "TV",
+        "icon": "tv",
+        "category": "Entertainment & Technology",
+        "description": "Large smart TV with cable",
+        "created_at": "2025-09-18T15:01:47.769Z",
+        "featured": true
+      },
+      {
+        "id": "dd3c9fe6-592b-46c2-8a22-4fca7e80d518",
+        "name": "Netflix",
+        "icon": "tv",
+        "category": "Entertainment & Technology",
+        "description": "Netflix streaming available",
+        "created_at": "2025-09-18T15:01:47.794Z",
+        "featured": true
+      },
+      {
+        "id": "6ec7bb83-e699-4a95-af08-30dd68fe025b",
+        "name": "Apple TV",
+        "icon": "tv",
+        "category": "Entertainment & Technology",
+        "description": "Apple TV streaming device",
+        "created_at": "2025-09-18T15:01:47.825Z",
+        "featured": true
+      },
+      {
+        "id": "3e8209a4-6bfe-42a1-8006-1e9c2ea57523",
+        "name": "Mountain View",
+        "icon": "heart",
+        "category": "Location & Views",
+        "description": "Beautiful mountain views from the property",
+        "created_at": "2025-09-18T17:08:14.063Z",
+        "featured": true
+      },
+      {
+        "id": "1412e6ce-9089-4edf-888c-0647674315b5",
+        "name": "Ocean View",
+        "icon": "waves",
+        "category": "Location & Views",
+        "description": "Stunning ocean views from the property",
+        "created_at": "2025-09-18T17:08:14.063Z",
+        "featured": true
+      },
+      {
+        "id": "0423bbb0-8624-4c0e-af78-0547295d5ad4",
+        "name": "Private Pool",
+        "icon": "waves",
+        "category": "Outdoor & Recreation",
+        "description": "Heated pool with ocean views",
+        "created_at": "2025-09-18T15:01:47.923Z",
+        "featured": false
+      },
+      {
+        "id": "03a7ebbf-6fa3-4711-91df-8b5a16811c6b",
+        "name": "Dishes & Silverware",
+        "icon": "utensils",
+        "category": "Kitchen & Dining",
+        "description": "Complete dining sets",
+        "created_at": "2025-09-18T15:01:47.548Z",
+        "featured": false
+      },
+      {
+        "id": "dc926c5d-3d79-460c-9272-6565d02951ec",
+        "name": "Shampoo",
+        "icon": "droplets",
+        "category": "Bathroom & Personal Care",
+        "description": "Quality shampoo provided",
+        "created_at": "2025-09-18T15:01:47.571Z",
+        "featured": false
+      },
+      {
+        "id": "e32fea81-471e-404e-9863-3ddb37b69c1d",
+        "name": "Body Wash",
+        "icon": "droplets",
+        "category": "Bathroom & Personal Care",
+        "description": "Moisturizing body wash",
+        "created_at": "2025-09-18T15:01:47.597Z",
+        "featured": false
+      },
+      {
+        "id": "c0b1894f-85bb-4a66-80af-e80251c7bfd2",
+        "name": "Hair Dryer",
+        "icon": "wind",
+        "category": "Bathroom & Personal Care",
+        "description": "Professional hair dryer",
+        "created_at": "2025-09-18T15:01:47.646Z",
+        "featured": false
+      },
+      {
+        "id": "03973d55-0392-4953-a8d5-55bc5a0e5199",
+        "name": "Toilet Paper",
+        "icon": "package",
+        "category": "Bathroom & Personal Care",
+        "description": "Stocked toilet paper",
+        "created_at": "2025-09-18T15:01:47.696Z",
+        "featured": false
+      },
+      {
+        "id": "bbf84724-2db0-405d-9f43-bc5eb14c4353",
+        "name": "First Aid Kit",
+        "icon": "heart",
+        "category": "Bathroom & Personal Care",
+        "description": "Basic first aid supplies",
+        "created_at": "2025-09-18T15:01:47.720Z",
+        "featured": false
+      },
+      {
+        "id": "397fcfbf-663d-4f60-8f08-8d78cec31c2c",
+        "name": "Mountain View",
+        "icon": "heart",
+        "category": "Premium Features",
+        "description": "Beautiful mountain views from the property",
+        "created_at": "2025-09-23T18:42:07.303Z",
+        "featured": true
+      },
+      {
+        "id": "ea8f0969-f0a2-40e9-ba96-d317a2f65a14",
+        "name": "Ocean View",
+        "icon": "waves",
+        "category": "Premium Features",
+        "description": "Stunning ocean views from the property",
+        "created_at": "2025-09-23T18:42:07.303Z",
+        "featured": true
+      },
+      {
+        "id": "91182027-6e92-4a12-9b97-f27e3bf3d331",
+        "name": "Beach Access",
+        "icon": "waves",
+        "category": "Premium Features",
+        "description": "Direct access to private beach",
+        "created_at": "2025-09-23T18:42:07.303Z",
+        "featured": true
+      },
+      {
+        "id": "f681d113-c2e0-4603-bf3c-4dfa9ef07cc6",
+        "name": "Private Pool",
+        "icon": "droplets",
+        "category": "Premium Features",
+        "description": "Exclusive private pool for your enjoyment",
+        "created_at": "2025-09-23T18:42:07.303Z",
+        "featured": true
+      },
+      {
+        "id": "05ce689a-6713-4397-9171-2be0f78b682d",
+        "name": "Sound System",
+        "icon": "speaker",
+        "category": "Entertainment & Technology",
+        "description": "Bluetooth sound system",
+        "created_at": "2025-09-18T15:01:47.848Z",
+        "featured": false
+      },
+      {
+        "id": "29d67061-4783-45cf-bb70-d5a3ceb3c06b",
+        "name": "Books & Magazines",
+        "icon": "book",
+        "category": "Entertainment & Technology",
+        "description": "Reading materials provided",
+        "created_at": "2025-09-18T15:01:47.872Z",
+        "featured": false
+      },
+      {
+        "id": "033490d4-bbc3-4911-8636-10896c254a6a",
+        "name": "Hot Tub",
+        "icon": "waves",
+        "category": "Outdoor & Recreation",
+        "description": "Relaxing hot tub",
+        "created_at": "2025-09-18T15:01:47.946Z",
+        "featured": false
+      },
+      {
+        "id": "28126c1b-ca7e-4ef8-b23f-4fac4c0bd7ac",
+        "name": "Beach Chairs",
+        "icon": "chair",
+        "category": "Outdoor & Recreation",
+        "description": "Comfortable beach chairs",
+        "created_at": "2025-09-18T15:01:47.971Z",
+        "featured": false
+      },
+      {
+        "id": "8a8f2a76-cbce-46a5-8af6-310dde6425c9",
+        "name": "Beach Towels",
+        "icon": "shirt",
+        "category": "Outdoor & Recreation",
+        "description": "Large beach towels",
+        "created_at": "2025-09-18T15:01:47.996Z",
+        "featured": false
+      },
+      {
+        "id": "ce9b5687-2e71-4477-8491-0400c41bb54a",
+        "name": "Beach Umbrella",
+        "icon": "umbrella",
+        "category": "Outdoor & Recreation",
+        "description": "Sun protection umbrella",
+        "created_at": "2025-09-18T15:01:48.020Z",
+        "featured": false
+      },
+      {
+        "id": "ae0f8826-c189-4fc8-821c-69dbda430371",
+        "name": "Hot Water",
+        "icon": "droplets",
+        "category": "Bathroom & Personal Care",
+        "description": "Unlimited hot water",
+        "created_at": "2025-09-18T15:01:47.622Z",
+        "featured": false
+      },
+      {
+        "id": "06491ee0-44d8-451a-9ba4-5e06e5f2d1ad",
+        "name": "Air Conditioning",
+        "icon": "wind",
+        "category": "Comfort & Convenience",
+        "description": "Central AC throughout",
+        "created_at": "2025-09-18T15:01:48.293Z",
+        "featured": false
+      },
+      {
+        "id": "91325486-8933-482f-8232-5baef343085c",
+        "name": "Dryer",
+        "icon": "shirt",
+        "category": "Comfort & Convenience",
+        "description": "Full-size dryer",
+        "created_at": "2025-09-18T15:01:48.376Z",
+        "featured": false
+      },
+      {
+        "id": "86521e1e-dec2-4709-a987-4b4d91916f51",
+        "name": "WiFi",
+        "icon": "wifi",
+        "category": "Entertainment & Technology",
+        "description": "High-speed internet throughout",
+        "created_at": "2025-09-18T15:01:47.744Z",
+        "featured": true
+      },
+      {
+        "id": "ac059291-673b-4245-8ce7-0f7462858133",
+        "name": "Beach Access",
+        "icon": "waves",
+        "category": "Outdoor & Recreation",
+        "description": "Direct access to private beach",
+        "created_at": "2025-09-18T15:01:47.896Z",
+        "featured": true
+      },
+      {
+        "id": "f7a28cae-8e37-4294-893b-b460fccf981d",
+        "name": "Washer",
+        "icon": "shirt",
+        "category": "Comfort & Convenience",
+        "description": "Full-size washing machine",
+        "created_at": "2025-09-18T15:01:48.352Z",
+        "featured": true
+      },
+      {
+        "id": "689cf916-f2d7-423c-882a-6a01acd3b048",
+        "name": "Free Parking",
+        "icon": "car",
+        "category": "Transportation & Parking",
+        "description": "Complimentary parking space",
+        "created_at": "2025-09-18T15:01:48.857Z",
+        "featured": true
+      }
+    ],
+    "amenity_categories": [
+      {
+        "id": "dface6c8-80b6-4c6e-ac43-52f08f7b5ae0",
+        "name": "Premium Features",
+        "description": "Luxury amenities and special features",
+        "icon": null,
+        "color": null,
+        "sort_order": 1,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "4ed1b089-6e45-4f3e-9ccb-fff6dca2842a",
+        "name": "Entertainment & Technology",
+        "description": "TVs, internet, and electronic amenities",
+        "icon": null,
+        "color": null,
+        "sort_order": 2,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "2e07c3bb-ad4c-460b-837d-befa7db69878",
+        "name": "Kitchen & Dining",
+        "description": "Cooking and dining facilities",
+        "icon": null,
+        "color": null,
+        "sort_order": 3,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "5d5ad962-4ea3-4fd8-812c-2c95c0259801",
+        "name": "Comfort & Convenience",
+        "description": "Everyday comfort amenities",
+        "icon": null,
+        "color": null,
+        "sort_order": 4,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "8a8443a6-5ad9-4515-a7f5-1c1761eed506",
+        "name": "Outdoor & Recreation",
+        "description": "Outdoor spaces and recreational facilities",
+        "icon": null,
+        "color": null,
+        "sort_order": 5,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "193235bd-f1be-44f7-9480-9769ea004656",
+        "name": "Transportation & Parking",
+        "description": "Vehicle and transportation amenities",
+        "icon": null,
+        "color": null,
+        "sort_order": 6,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "42ad255a-1ab3-4765-808f-462381b51011",
+        "name": "Safety & Security",
+        "description": "Security and safety features",
+        "icon": null,
+        "color": null,
+        "sort_order": 7,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      },
+      {
+        "id": "15b3b92c-2f2f-493b-b3f7-40e9ce27ef80",
+        "name": "Location & Views",
+        "description": "Scenic views and location features",
+        "icon": null,
+        "color": null,
+        "sort_order": 8,
+        "created_at": "2025-09-23T19:03:45.735Z"
+      }
+    ],
+    "property_amenities": [
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "d9092aff-c2d4-4985-94b0-22af8c6d24b8"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "8d1a5f8b-6fe6-4b52-95f5-973fa9cb2574"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "aba40692-348b-4892-b3b2-c43e7886c815"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "9050ef32-2b99-4261-a7db-f13796d9f7ec"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "b8c79a83-aaa9-4375-8df9-948cce117b3e"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "ab7f1116-68c2-4053-8f74-b015d99b4431"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "fd5990f4-7c89-4eba-9d2c-b1677e65526d"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "898f9f19-9358-464f-b0a9-a73a839ed902"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "c5de3f6b-d555-47c2-bec0-0daffdc5eb1c"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "474ebdb6-ac00-4774-b787-431921069dd9"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "e234ea3f-6539-4341-a23d-6be776b8e62d"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "053b1c86-e679-48d2-9934-3ffa799db6ed"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "6913073f-440c-459d-930d-a02dad4d4e4a"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "3e8209a4-6bfe-42a1-8006-1e9c2ea57523"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "1412e6ce-9089-4edf-888c-0647674315b5"
+      },
+      {
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "amenity_id": "ac059291-673b-4245-8ce7-0f7462858133"
+      }
+    ],
+    "photos": [
+      {
+        "id": "47d2bc6a-c292-434c-91b4-c443e540ad94",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Beach_1758545423883.jpg",
+        "alt": "Street view of the oceanfront beach house showing modern architectural design with privacy gate",
+        "sort_order": 14,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:40.220Z"
+      },
+      {
+        "id": "92f0268c-7cc0-4736-811e-a346572b2444",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Beach_1758545423883.jpg",
+        "alt": "Twilight exterior view highlighting the property magical ambiance and oceanfront location",
+        "sort_order": 17,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:40.220Z"
+      },
+      {
+        "id": "38697244-a74d-4300-a70e-8dafb77de202",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Guest Bedroom 1_1758545423883.jpg",
+        "alt": "Cozy guest bedroom with bohemian decor and comfortable queen bed",
+        "sort_order": 10,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:32.699Z"
+      },
+      {
+        "id": "bcd87f16-37d2-4e6d-a0cd-63266bfe3278",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Guest Bedroom 2_1758545423884.jpg",
+        "alt": "Family-friendly guest room with bunk beds and twin bed - perfect for children and groups",
+        "sort_order": 11,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:32.699Z"
+      },
+      {
+        "id": "fe29417e-b097-42ed-af2d-202c8973529c",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Bathroom_1758545423882.jpg",
+        "alt": "Modern bathroom with shower-tub combination and clean contemporary design",
+        "sort_order": 12,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:40.220Z"
+      },
+      {
+        "id": "89ca1828-1eb2-436f-bfd1-a5e5f198f7f4",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Backyard Image_1758545423882.jpg",
+        "alt": "Landscaped backyard with lounge chairs, private beach access and stunning sunrise ocean views",
+        "sort_order": 13,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:40.220Z"
+      },
+      {
+        "id": "575a2a78-8ec9-4099-bec7-412b24888d8a",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Exterior 2_1758545423883.jpg",
+        "alt": "Property exterior showcasing tropical landscaping and elevated beach house design",
+        "sort_order": 15,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:40.220Z"
+      },
+      {
+        "id": "47ec8e13-530e-4900-98b4-dde729d60f27",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Exterior 3_1758545423883.jpg",
+        "alt": "Enchanting evening view of the beach house with warm string lights and mountain backdrop",
+        "sort_order": 16,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:40.220Z"
+      },
+      {
+        "id": "1d0b0cb7-d3bd-4b64-9fd8-e8f816188cf5",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Patio_1758545423884.jpg",
+        "alt": "Private oceanfront deck with outdoor dining and breathtaking sunset views over the Pacific",
+        "sort_order": 2,
+        "is_featured": true,
+        "created_at": "2025-09-22T12:56:25.000Z"
+      },
+      {
+        "id": "24307044-4108-4712-98b6-ec7cafd2fe2f",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Living Room + Kicthen_1758545423884.jpg",
+        "alt": "Open concept kitchen and living room with panoramic ocean views and modern tropical decor",
+        "sort_order": 4,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:25.000Z"
+      },
+      {
+        "id": "e80e7e2c-bf04-4395-9239-68b34f687f07",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Kitchen + Living Room_1758545423884.jpg",
+        "alt": "Spacious kitchen and living area with high ceilings, modern amenities and ocean access",
+        "sort_order": 5,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:25.000Z"
+      },
+      {
+        "id": "e63bee7a-8ea5-437f-9079-d150addff60e",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Living Room_1758545423884.jpg",
+        "alt": "Comfortable living room with floor-to-ceiling windows showcasing stunning ocean and mountain views",
+        "sort_order": 6,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:32.699Z"
+      },
+      {
+        "id": "3d4744bb-2e48-4205-9291-7c2000c8dc54",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Kitchen_1758545423884.jpg",
+        "alt": "Fully equipped gourmet kitchen with modern appliances and tropical design elements",
+        "sort_order": 7,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:32.699Z"
+      },
+      {
+        "id": "a80c27c8-fe3a-4ae3-a0a3-e240a96d7cb4",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Foyer_1758545423883.jpg",
+        "alt": "Welcoming foyer with tropical botanical wallpaper and ocean view access",
+        "sort_order": 8,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:32.699Z"
+      },
+      {
+        "id": "13cc8a31-78a0-4149-b757-d4d6fc24e741",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Master Bedroom_1758545423884.jpg",
+        "alt": "Serene master bedroom with ocean views and modern tropical furnishings",
+        "sort_order": 9,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:32.699Z"
+      },
+      {
+        "id": "e33719bc-40fc-4287-a49d-0cd483799985",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Patio (2)_1758545423884.jpg",
+        "alt": "Covered oceanfront patio with comfortable seating and unobstructed ocean views",
+        "sort_order": 3,
+        "is_featured": false,
+        "created_at": "2025-09-22T12:56:25.000Z"
+      },
+      {
+        "id": "363c64a5-180c-46e9-99ca-919faea24081",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Primary_1758545423884.jpg",
+        "alt": "Stunning oceanfront beach house in Oahu with dramatic mountain backdrop and private beach access",
+        "sort_order": 0,
+        "is_featured": true,
+        "created_at": "2025-09-22T12:56:25.000Z"
+      },
+      {
+        "id": "dcd3945a-36fc-414d-acf3-4c32eb2bb8fa",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "url": "/attached_assets/Timber and Love Stay With Us - Chinaman_s Ocean Front Beach House Airbnb Beach_1758545423883.jpg",
+        "alt": "Private beach area with loungers, umbrellas, and direct oceanfront access from the luxury property",
+        "sort_order": 1,
+        "is_featured": true,
+        "created_at": "2025-09-22T12:56:25.000Z"
+      }
+    ],
+    "nearby_attractions": [
+      {
+        "id": "19589d88-f2c1-474e-9e7a-d76ddc5048f9",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Kualoa Regional Park",
+        "description": "Beautiful beach park with camping facilities and stunning views of Chinaman's Hat (Mokoli'i Island). Perfect for kayaking, fishing, and beach activities.",
+        "distance": "0.5 miles (2 minutes walk)",
+        "lat": "21.51303000",
+        "lng": "-157.84007000",
+        "icon": "tent",
+        "color": "#0ea5e9",
+        "category": "beach",
+        "sort_order": 2,
+        "active": true,
+        "created_at": "2025-09-19T14:09:49.538Z",
+        "detailed_description": "Discover one of Oahu's most pristine and peaceful beach destinations, where golden sand meets crystal-clear turquoise waters against a backdrop of magnificent Ko'olau Mountains. This expansive beach park offers the perfect blend of relaxation and adventure - from gentle swimming in protected waters to thrilling kayaking expeditions to the iconic Mokoli'i Island. With well-maintained picnic areas, restroom facilities, and camping options, it's an ideal spot for families and solo travelers alike. Watch traditional Hawaiian outrigger canoes glide across the bay as you soak in the authentic island atmosphere away from crowded tourist beaches.",
+        "image_url": "/attached_assets/stock_images/kualoa_ranch_hawaii__003ba859.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/kualoa_regional_park_6f029338.jpg",
+          "/attached_assets/stock_images/kualoa_regional_park_968093c1.jpg"
+        ],
+        "website_url": null,
+        "phone_number": null,
+        "address": null,
+        "hours": "Daily 7:00 AM - 7:45 PM",
+        "rating": "4.60",
+        "reviews_count": 891,
+        "tags": [
+          "Beach Paradise",
+          "Kayaking",
+          "Swimming",
+          "Picnic Areas",
+          "Mountain Views",
+          "Family Friendly"
+        ],
+        "ticket_price": "Free"
+      },
+      {
+        "id": "aef22624-7563-47b5-abac-51685f29ec22",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Chinaman's Hat (Mokoli'i Island)",
+        "description": "Iconic small island perfect for kayaking adventures and hiking. Known for its distinctive conical shape resembling a traditional hat.",
+        "distance": "0.3 miles offshore (20-minute kayak)",
+        "lat": "21.50937610",
+        "lng": "-157.82954690",
+        "icon": "anchor",
+        "color": "#f59e0b",
+        "category": "attraction",
+        "sort_order": 3,
+        "active": true,
+        "created_at": "2025-09-19T14:09:49.538Z",
+        "detailed_description": "Embark on an unforgettable kayaking adventure to this mystical 206-foot tall island, whose distinctive conical silhouette has captured imaginations for centuries. Named 'Mokoli'i' in Hawaiian (meaning 'little lizard'), this ancient volcanic remnant offers intrepid explorers the chance to experience untouched Hawaiian wilderness. The moderately challenging paddle from Kualoa Beach rewards you with spectacular 360-degree views of Oahu's windward coast, secluded tide pools perfect for snorkeling, and the thrill of stepping foot on a truly wild piece of paradise. Best visited during calm morning hours when trade winds are gentle and visibility is crystal clear.",
+        "image_url": "/attached_assets/stock_images/chinaman's_hat_mokol_5c6f4bfe.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/mokolii_island_china_2d49c6e9.jpg",
+          "/attached_assets/stock_images/mokolii_island_china_6f17e3ec.jpg"
+        ],
+        "website_url": null,
+        "phone_number": null,
+        "address": null,
+        "hours": "Best visited during daylight hours",
+        "rating": "4.70",
+        "reviews_count": 654,
+        "tags": [
+          "Kayaking Adventure",
+          "Island Hiking",
+          "Volcanic Formation",
+          "Tide Pools",
+          "Photography",
+          "Wilderness Experience"
+        ],
+        "ticket_price": "Free (kayak rental required)"
+      },
+      {
+        "id": "45cf5560-f2a5-45c3-ae36-3d02c7c875b8",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Waikiki Beach",
+        "description": "Hawaii's most famous beach destination featuring 2 miles of white sand, perfect for swimming, surfing, and enjoying the iconic Honolulu skyline.",
+        "distance": "25 miles (45 minutes drive)",
+        "lat": "21.27621800",
+        "lng": "-157.82709100",
+        "icon": "sun",
+        "color": "#f59e0b",
+        "category": "beach",
+        "sort_order": 5,
+        "active": true,
+        "created_at": "2025-09-19T14:10:30.229Z",
+        "detailed_description": "Waikīkī Beach is the heart of Hawaii tourism, stretching 2 miles along Honolulu's south shore. This world-famous destination features warm turquoise waters perfect for swimming, beginner surfing lessons, and paddleboarding. The beach is actually composed of 6 distinct sections and offers incredible views of Diamond Head crater. Home to the Duke Kahanamoku statue and countless beachfront hotels, restaurants, and shops.",
+        "image_url": "/attached_assets/stock_images/waikiki_beach_hawaii_3d1c0068.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/waikiki_beach_hawaii_b41ac21f.jpg",
+          "/attached_assets/stock_images/waikiki_beach_hawaii_3d1c0068.jpg"
+        ],
+        "website_url": "https://www.gohawaii.com/islands/oahu/regions/waikiki",
+        "phone_number": null,
+        "address": "Kalākaua Avenue, Honolulu, HI 96815",
+        "hours": "24/7",
+        "rating": "4.40",
+        "reviews_count": 12847,
+        "tags": [
+          "famous beach",
+          "surfing",
+          "swimming",
+          "shopping",
+          "dining",
+          "hotels",
+          "iconic"
+        ],
+        "ticket_price": "Free (parking $1.50/hour)"
+      },
+      {
+        "id": "81b43a55-d289-48d5-918e-bfd48ed9d996",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Banzai Pipeline",
+        "description": "World's most famous surf break featuring massive, hollow waves over shallow reef. Home to prestigious surfing competitions and expert surfers only.",
+        "distance": "38 miles (1 hour drive)",
+        "lat": "21.66370000",
+        "lng": "-158.05150000",
+        "icon": "waves",
+        "color": "#06b6d4",
+        "category": "beach",
+        "sort_order": 6,
+        "active": true,
+        "created_at": "2025-09-19T14:10:30.229Z",
+        "detailed_description": "The Banzai Pipeline at Ehukai Beach Park is the most iconic and dangerous surf break in the world. Known simply as \"Pipeline,\" this shallow reef break creates massive 12-30 foot hollow, barreling waves that attract the world's best surfers. Home to the prestigious Billabong Pipeline Masters competition, this location is for experienced surfers only but offers incredible spectating opportunities during winter months.",
+        "image_url": "/attached_assets/stock_images/pipeline_banzai_hawa_1b40d87d.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/pipeline_banzai_hawa_909af3d3.jpg",
+          "/attached_assets/stock_images/pipeline_banzai_hawa_2cc7595f.jpg"
+        ],
+        "website_url": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/ehukai-beach-park-banzai-pipeline",
+        "phone_number": null,
+        "address": "Ehukai Beach Park, Pupukea, North Shore, Oahu",
+        "hours": "24/7 (Lifeguard on duty)",
+        "rating": "4.80",
+        "reviews_count": 1567,
+        "tags": [
+          "world-class surfing",
+          "expert only",
+          "competitions",
+          "spectating",
+          "dangerous",
+          "iconic"
+        ],
+        "ticket_price": "Free"
+      },
+      {
+        "id": "355454ed-5801-4009-8046-aae47ad383b2",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Hanauma Bay Nature Preserve",
+        "description": "World-renowned snorkeling destination and Marine Life Conservation District featuring pristine coral reefs and over 300 species of Hawaiian fish.",
+        "distance": "28 miles (50 minutes drive)",
+        "lat": "21.26900000",
+        "lng": "-157.69380000",
+        "icon": "fish",
+        "color": "#06b6d4",
+        "category": "attraction",
+        "sort_order": 8,
+        "active": true,
+        "created_at": "2025-09-19T14:11:03.621Z",
+        "detailed_description": "Hanauma Bay is Hawaii's first Marine Life Conservation District, formed within a volcanic crater offering some of the best snorkeling in the world. This protected bay features shallow fringing reefs extending 100 yards offshore, crystal-clear waters, and over 300 species of Hawaiian fish including green sea turtles. Daily visitor limit of 1,400 people ensures ecosystem protection while providing an incredible underwater experience.",
+        "image_url": "/attached_assets/stock_images/hanauma_bay_hawaii_s_30763e18.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/hanauma_bay_hawaii_s_86cf9666.jpg",
+          "/attached_assets/stock_images/hanauma_bay_hawaii_s_b7de2ebe.jpg"
+        ],
+        "website_url": "https://www.honolulu.gov/dpr/hanauma-bay-nature-preserve/",
+        "phone_number": "808-768-6861",
+        "address": "7455 Kalanianaole Highway, Honolulu, HI 96825",
+        "hours": "Wed-Sun 6:45 AM - 4 PM (Closed Mon & Tue)",
+        "rating": "4.70",
+        "reviews_count": 8923,
+        "tags": [
+          "snorkeling",
+          "marine conservation",
+          "coral reefs",
+          "sea turtles",
+          "reservations required",
+          "educational"
+        ],
+        "ticket_price": "$25 non-residents, FREE residents"
+      },
+      {
+        "id": "92556336-839b-43fc-a297-99bb496da60e",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Sunset Beach",
+        "description": "Famous North Shore beach known for massive winter waves and world surfing competitions, plus spectacular sunset viewing and calm summer conditions.",
+        "distance": "41 miles (1 hour 10 minutes drive)",
+        "lat": "21.65980000",
+        "lng": "-158.05320000",
+        "icon": "sunset",
+        "color": "#f97316",
+        "category": "beach",
+        "sort_order": 7,
+        "active": true,
+        "created_at": "2025-09-19T14:10:30.229Z",
+        "detailed_description": "Sunset Beach is a 2-mile stretch of North Shore paradise that transforms dramatically between seasons. In winter, it hosts 20-30 foot waves and world-class surfing competitions including the Vans Triple Crown. During summer, the beach becomes lake-calm and family-friendly. Famous for its spectacular sunset views and considered one of the longest stretches of rideable surf in the world.",
+        "image_url": "/attached_assets/stock_images/sunset_beach_hawaii__103218e2.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/sunset_beach_hawaii__b92a18c7.jpg",
+          "/attached_assets/stock_images/sunset_beach_hawaii__6d6f7567.jpg"
+        ],
+        "website_url": "https://www.gohawaii.com/islands/oahu/things-to-do/beaches/sunset-beach",
+        "phone_number": null,
+        "address": "59-104 Kamehameha Highway, Pupukea, North Shore, Oahu",
+        "hours": "24/7",
+        "rating": "4.60",
+        "reviews_count": 2341,
+        "tags": [
+          "spectacular sunsets",
+          "big wave surfing",
+          "seasonal changes",
+          "competitions",
+          "family summer fun"
+        ],
+        "ticket_price": "Free"
+      },
+      {
+        "id": "3b284cc7-9efa-4f02-9085-e81ca8857e11",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Diamond Head State Monument",
+        "description": "Iconic volcanic crater offering a moderately challenging hike to panoramic summit views of Waikiki, Honolulu, and the south Oahu coastline.",
+        "distance": "30 miles (55 minutes drive)",
+        "lat": "21.25580000",
+        "lng": "-157.80700000",
+        "icon": "mountain",
+        "color": "#dc2626",
+        "category": "attraction",
+        "sort_order": 9,
+        "active": true,
+        "created_at": "2025-09-19T14:11:03.621Z",
+        "detailed_description": "Diamond Head (Lē'ahi in Hawaiian) is a 300,000-year-old volcanic crater and one of Hawaii's most recognizable landmarks. The 1.6-mile roundtrip trail features military tunnels, staircases, and culminates in breathtaking 360-degree views from the 560-foot summit. Built in 1908 for coastal defense, this historic trail provides stunning vistas of Waikiki Beach, Honolulu city, and the Pacific Ocean.",
+        "image_url": "/attached_assets/stock_images/diamond_head_crater__468f4154.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/diamond_head_hawaii__deacebdb.jpg",
+          "/attached_assets/stock_images/diamond_head_hawaii__9976c344.jpg"
+        ],
+        "website_url": "https://dlnr.hawaii.gov/dsp/hiking/oahu/diamond-head-summit-trail/",
+        "phone_number": null,
+        "address": "Diamond Head Road, Honolulu, HI 96816",
+        "hours": "Daily 6 AM - 6 PM (Last entry 4 PM)",
+        "rating": "4.50",
+        "reviews_count": 18590,
+        "tags": [
+          "hiking",
+          "scenic views",
+          "historic trail",
+          "photography",
+          "reservations required",
+          "crater hike"
+        ],
+        "ticket_price": "$5 non-residents, FREE residents"
+      },
+      {
+        "id": "2ee1d7d6-ff95-43ae-b573-f88c095706f1",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Kualoa Ranch",
+        "description": "Famous filming location for Jurassic Park, LOST, and over 70 movies and TV shows. 4,000-acre working ranch offering movie tours, adventure activities, and cultural experiences.",
+        "distance": "1.5 miles (3 minutes drive)",
+        "lat": "21.51900000",
+        "lng": "-157.83550000",
+        "icon": "mountain",
+        "color": "#22c55e",
+        "category": "attraction",
+        "sort_order": 1,
+        "active": true,
+        "created_at": "2025-09-19T14:09:49.538Z",
+        "detailed_description": "Step into Hollywood history at this legendary 4,000-acre working ranch where over 70 blockbuster movies and TV shows were filmed, including Jurassic Park, LOST, and Hawaii Five-0. Experience breathtaking valley tours through dramatic landscapes of emerald peaks and ancient fishponds, discover filming locations that brought your favorite scenes to life, and immerse yourself in authentic Hawaiian culture. Choose from horseback riding adventures, ATV expeditions, or peaceful catamaran cruises while surrounded by some of the most stunning scenery in all of Hawaii.",
+        "image_url": "/attached_assets/stock_images/kualoa_ranch_hawaii__003ba859.jpg",
+        "gallery_images": [
+          "/images/attractions/kualoa_ranch_hawaii__088be2ff.jpg"
+        ],
+        "website_url": null,
+        "phone_number": null,
+        "address": null,
+        "hours": "Daily 8:00 AM - 5:00 PM",
+        "rating": "4.80",
+        "reviews_count": 2847,
+        "tags": [
+          "Filming Location",
+          "Movie Tours",
+          "Adventure Activities",
+          "Cultural Experience",
+          "Horseback Riding",
+          "Scenic Views"
+        ],
+        "ticket_price": "Tours from $65"
+      },
+      {
+        "id": "0a94ebbc-d706-427c-846a-ca3747aae6b2",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Pearl Harbor National Memorial",
+        "description": "Historic World War II memorial commemorating the December 7, 1941 attack. Features USS Arizona Memorial, museums, and comprehensive WWII exhibits.",
+        "distance": "35 miles (1 hour drive)",
+        "lat": "21.36759200",
+        "lng": "-157.93895000",
+        "icon": "landmark",
+        "color": "#374151",
+        "category": "attraction",
+        "sort_order": 10,
+        "active": true,
+        "created_at": "2025-09-19T14:11:03.621Z",
+        "detailed_description": "Pearl Harbor National Memorial is one of the most significant historical sites in America, commemorating the \"date which will live in infamy.\" The memorial includes the USS Arizona Memorial over the sunken battleship, two comprehensive museums, and the 23-minute documentary film about the attack. This solemn and educational experience provides deep insight into the events that led America into World War II and honors the 2,400 Americans who lost their lives.",
+        "image_url": "/attached_assets/stock_images/pearl_harbor_hawaii__4e3b19b9.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/pearl_harbor_hawaii__c6ccdd04.jpg",
+          "/attached_assets/stock_images/pearl_harbor_hawaii__4e3b19b9.jpg"
+        ],
+        "website_url": "https://www.nps.gov/perl/",
+        "phone_number": null,
+        "address": "1 Arizona Memorial Place, Honolulu, HI 96818",
+        "hours": "Daily 7 AM - 5 PM",
+        "rating": "4.60",
+        "reviews_count": 15247,
+        "tags": [
+          "historical",
+          "WWII memorial",
+          "educational",
+          "patriotic",
+          "museum",
+          "reservations required",
+          "free admission"
+        ],
+        "ticket_price": "FREE (advance reservations required)"
+      },
+      {
+        "id": "3f49dfb2-234d-4d51-a75a-5cfe85a34d82",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "name": "Polynesian Cultural Center",
+        "description": "Hawaii's #1 paid attraction featuring authentic Polynesian culture from six Pacific islands with traditional villages, shows, and luau dining.",
+        "distance": "22 miles (35 minutes drive)",
+        "lat": "21.64090490",
+        "lng": "-157.92112440",
+        "icon": "users",
+        "color": "#8b5cf6",
+        "category": "attraction",
+        "sort_order": 4,
+        "active": true,
+        "created_at": "2025-09-19T14:10:30.229Z",
+        "detailed_description": "Experience the authentic cultures of six Polynesian islands: Hawaii, Samoa, Fiji, Tonga, Tahiti, and Aotearoa (New Zealand). This 42-acre center features traditional villages with hands-on cultural activities, the spectacular \"HĀ: Breath of Life\" evening show with 100+ performers, HUKI canoe pageant, and authentic luau dining. Over 70% of employees are actual Pacific Islander students, making this one of the most authentic cultural experiences in the Pacific.",
+        "image_url": "/attached_assets/stock_images/polynesian_cultural__1ced59e5.jpg",
+        "gallery_images": [
+          "/attached_assets/stock_images/polynesian_cultural__a443d32b.jpg",
+          "/attached_assets/stock_images/polynesian_cultural__d9b11146.jpg"
+        ],
+        "website_url": "https://www.polynesia.com/",
+        "phone_number": "808-293-3333",
+        "address": "55-370 Kamehameha Highway, Laie, HI 96762",
+        "hours": "Mon, Tue, Thu, Fri, Sat 11 AM - 9 PM (Closed Sun & Wed)",
+        "rating": "4.50",
+        "reviews_count": 4673,
+        "tags": [
+          "cultural experience",
+          "family-friendly",
+          "authentic Polynesian",
+          "shows",
+          "luau",
+          "educational"
+        ],
+        "ticket_price": "Starting from $89.95"
+      }
+    ],
+    "settings": [
+      {
+        "id": "ea8c4f7b-bc0d-43fa-9d5f-756af1de3d6b",
+        "key": "seo_site_title",
+        "value": "Vacation Rental Oahu",
+        "updated_at": "2025-09-19T14:30:42.393Z"
+      },
+      {
+        "id": "372b9520-d608-49d3-8a46-a31a8cdb05d8",
+        "key": "currency",
+        "value": {
+          "value": "USD"
+        },
+        "updated_at": "2025-09-19T13:13:02.983Z"
+      },
+      {
+        "id": "7ad20594-82b1-4e0f-8f56-318fbc7b781d",
+        "key": "timezone",
+        "value": {
+          "value": "America/Los_Angeles"
+        },
+        "updated_at": "2025-09-19T13:13:03.010Z"
+      },
+      {
+        "id": "0893fb5f-7594-4ef5-a1f5-f0890b482896",
+        "key": "email_provider",
+        "value": {
+          "value": "resend"
+        },
+        "updated_at": "2025-09-19T13:13:03.033Z"
+      },
+      {
+        "id": "91dd4ee2-930e-4a2e-b6f2-09ccd44d0ed2",
+        "key": "from_email",
+        "value": {
+          "value": "noreply@localhost.dev"
+        },
+        "updated_at": "2025-09-19T13:13:03.055Z"
+      },
+      {
+        "id": "635d7c6d-94c3-481d-a199-bacd9529274e",
+        "key": "from_name",
+        "value": {
+          "value": "Development Site"
+        },
+        "updated_at": "2025-09-19T13:13:03.078Z"
+      },
+      {
+        "id": "10fc4d02-1468-4695-9427-4453215c413a",
+        "key": "stripe_test_mode",
+        "value": {
+          "value": true
+        },
+        "updated_at": "2025-09-19T13:13:03.101Z"
+      },
+      {
+        "id": "588ff580-9f6d-4dab-b6ed-c7b9e970dd18",
+        "key": "notifications_enabled",
+        "value": {
+          "value": true
+        },
+        "updated_at": "2025-09-19T13:13:03.123Z"
+      },
+      {
+        "id": "e328c10f-3b48-4903-af50-3d934f0b4d7d",
+        "key": "auto_confirmation",
+        "value": {
+          "value": false
+        },
+        "updated_at": "2025-09-19T13:13:03.145Z"
+      },
+      {
+        "id": "69cc14a7-544e-423e-8f29-b5d37d5935b5",
+        "key": "require_approval",
+        "value": {
+          "value": true
+        },
+        "updated_at": "2025-09-19T13:13:03.168Z"
+      },
+      {
+        "id": "365ac87b-f6c5-4a90-8df8-c255bd4effc8",
+        "key": "contact_phone",
+        "value": "(208) 995-9516",
+        "updated_at": "2025-09-24T01:03:41.416Z"
+      },
+      {
+        "id": "4caa55c7-9b1a-4fd7-848d-4c4cae1e1475",
+        "key": "seo_site_description",
+        "value": "Premium vacation rental in Oahu, Hawaii with stunning ocean views and premium amenities",
+        "updated_at": "2025-09-19T14:30:42.393Z"
+      },
+      {
+        "id": "fbdb67f0-eadf-4f99-8d79-de558dec81cc",
+        "key": "seo_page_titles",
+        "value": {
+          "home": "Premium Hawaii Villa with Ocean Views - Vacation Rental Oahu",
+          "stay": "Our Premium Villa - Vacation Rental Oahu",
+          "booking": "Book Your Stay - Vacation Rental Oahu",
+          "policies": "Policies & Terms - Vacation Rental Oahu"
+        },
+        "updated_at": "2025-09-19T14:30:42.393Z"
+      },
+      {
+        "id": "a9107316-4190-4d21-95d9-200b60c5a3d0",
+        "key": "seo_meta_descriptions",
+        "value": {
+          "home": "Experience premium oceanfront living at our villa in Oahu. Vacation Rental Oahu offers stunning Hawaiian paradise with private beach access, premium amenities, and unforgettable ocean views.",
+          "stay": "Discover our premium villa features at Vacation Rental Oahu - spacious bedrooms, gourmet kitchen, hot tub, and direct beach access in beautiful Hawaii.",
+          "booking": "Book your dream Hawaiian getaway at Vacation Rental Oahu. Premium oceanfront villa with excellent amenities and stunning views. Reserve your dates today.",
+          "policies": "Review our booking policies, terms of service, and guidelines for your stay at Vacation Rental Oahu premium villa."
+        },
+        "updated_at": "2025-09-19T14:30:42.393Z"
+      }
+    ],
+    "email_templates": [],
+    "block_types": [
+      {
+        "id": "0e7fe190-07b1-49e4-800a-b5b052be37b2",
+        "name": "hero",
+        "label": "Hero Section",
+        "description": "Large banner with title, description and call-to-action",
+        "icon": "layout",
+        "category": "content",
+        "default_settings": {
+          "text_alignment": "center",
+          "background_type": "image"
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      },
+      {
+        "id": "89de7e75-1b3a-4710-9bbf-f94ffb9c9b55",
+        "name": "gallery",
+        "label": "Photo Gallery",
+        "description": "Image gallery with lightbox functionality",
+        "icon": "camera",
+        "category": "media",
+        "default_settings": {
+          "layout": "grid",
+          "columns": 3
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      },
+      {
+        "id": "fe92b0bd-9db8-461d-b088-6f43bef20696",
+        "name": "amenities",
+        "label": "Amenities Grid",
+        "description": "Display property amenities in organized categories",
+        "icon": "grid",
+        "category": "content",
+        "default_settings": {
+          "grid_columns": 4,
+          "show_categories": true
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      },
+      {
+        "id": "e6bac326-89e6-49d7-9db7-152906049795",
+        "name": "reviews",
+        "label": "Reviews Section",
+        "description": "Guest reviews and testimonials",
+        "icon": "message-square",
+        "category": "content",
+        "default_settings": {
+          "limit": 6,
+          "show_rating": true
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      },
+      {
+        "id": "1ad26f7e-8fe1-4b92-8b78-0d7582f8ce12",
+        "name": "attractions",
+        "label": "Nearby Attractions",
+        "description": "Local attractions and points of interest",
+        "icon": "map-pin",
+        "category": "content",
+        "default_settings": {
+          "radius": "10",
+          "show_map": true
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      },
+      {
+        "id": "c34b8787-9e23-4ca9-b91a-a2156e20160f",
+        "name": "text",
+        "label": "Text Block",
+        "description": "Rich text content with formatting",
+        "icon": "type",
+        "category": "content",
+        "default_settings": {
+          "allow_html": true
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      },
+      {
+        "id": "40333365-572a-4d84-8c7a-2f902b10c931",
+        "name": "image",
+        "label": "Image Block",
+        "description": "Single image with caption",
+        "icon": "image",
+        "category": "media",
+        "default_settings": {
+          "show_caption": true
+        },
+        "is_active": true,
+        "created_at": "2025-09-20T23:40:43.169Z"
+      }
+    ],
+    "content_blocks": [],
+    "page_layouts": [],
+    "pricing_rules": [
+      {
+        "id": "30bcd559-0b16-48ea-b2ba-0e8e43b5a1c8",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "base",
+        "start_date": null,
+        "end_date": null,
+        "value": "599.00",
+        "min_nights": null,
+        "percentage": false,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.453Z"
+      },
+      {
+        "id": "3b13d4d5-85dd-4815-a86d-5be6cf7005f7",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "cleaning_fee",
+        "start_date": null,
+        "end_date": null,
+        "value": "350.00",
+        "min_nights": null,
+        "percentage": false,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.479Z"
+      },
+      {
+        "id": "d0eeaefd-e225-486b-bdd7-286344d3fb5e",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "service_fee",
+        "start_date": null,
+        "end_date": null,
+        "value": "0.00",
+        "min_nights": null,
+        "percentage": true,
+        "active": false,
+        "created_at": "2025-09-18T15:01:50.503Z"
+      },
+      {
+        "id": "0baa30a8-312a-472a-b1c3-5d7d5b2abdbc",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "tat_rate",
+        "start_date": null,
+        "end_date": null,
+        "value": "10.25",
+        "min_nights": null,
+        "percentage": true,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.526Z"
+      },
+      {
+        "id": "a3e2243c-9278-40ee-be3a-da15f863cc91",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "get_rate",
+        "start_date": null,
+        "end_date": null,
+        "value": "4.50",
+        "min_nights": null,
+        "percentage": true,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.549Z"
+      },
+      {
+        "id": "08577882-eb3c-497e-9b30-97304eb26757",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "county_tax_rate",
+        "start_date": null,
+        "end_date": null,
+        "value": "3.00",
+        "min_nights": null,
+        "percentage": true,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.573Z"
+      },
+      {
+        "id": "c2e0370d-3f05-44ab-988e-3ee24cc96d68",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "weekend",
+        "start_date": null,
+        "end_date": null,
+        "value": "50.00",
+        "min_nights": null,
+        "percentage": false,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.596Z"
+      },
+      {
+        "id": "c5b5db51-a23b-4c1d-8c11-89a12c616bd3",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "min_nights",
+        "start_date": null,
+        "end_date": null,
+        "value": "3.00",
+        "min_nights": 3,
+        "percentage": false,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.620Z"
+      },
+      {
+        "id": "3dd64254-7b65-445a-946f-d6f09fb3a211",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "discount_long_stay",
+        "start_date": null,
+        "end_date": null,
+        "value": "10.00",
+        "min_nights": 7,
+        "percentage": true,
+        "active": true,
+        "created_at": "2025-09-18T15:01:50.643Z"
+      },
+      {
+        "id": "c77f8853-1fe8-4286-b1f1-788c629dfadb",
+        "property_id": "768ddc2d-04b5-47d2-88bc-9ed6ddfa6554",
+        "rule_type": "seasonal",
+        "start_date": "2025-12-20T00:00:00.000Z",
+        "end_date": "2025-12-31T00:00:00.000Z",
+        "value": "799.00",
+        "min_nights": null,
+        "percentage": false,
+        "active": true,
+        "created_at": "2025-09-19T02:22:02.120Z"
+      }
+    ],
+    "users": [
+      {
+        "id": "1ea83595-4ac6-49b4-b337-acd4f4d04a5f",
+        "email": "admin@localhost.dev",
+        "password": "a6d71ace00d49a6eb950546b63e9e29b007f95cd8193e8a40d018d7a879ffb52a4a23e6c7340315e090fef51192c86156c12e5dd213972e0c80cef3ebd8af290.498f24543bf1a728edd4840ea5946a33",
+        "role": "admin",
+        "twofa_secret": null,
+        "created_at": "2025-09-19T13:13:02.950Z"
+      },
+      {
+        "id": "0e3c1e0d-3922-442e-8b53-307f6521720b",
+        "email": "admin@vacationrentaloahu.co",
+        "password": "a6d71ace00d49a6eb950546b63e9e29b007f95cd8193e8a40d018d7a879ffb52a4a23e6c7340315e090fef51192c86156c12e5dd213972e0c80cef3ebd8af290.498f24543bf1a728edd4840ea5946a33",
+        "role": "admin",
+        "twofa_secret": null,
+        "created_at": "2025-09-23T20:28:42.308Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Homepage - Highest priority -->
+  <url>
+    <loc>https://vacationrentaloahu.co/</loc>
+    <lastmod>2024-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;h=800</image:loc>
+      <image:title>Beach House Ocean View Vacation Rental - VacationRentalOahu.co</image:title>
+      <image:caption>Stunning oceanfront beach house in Oahu, Hawaii with breathtaking ocean views and premium amenities</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Property Details Page - High priority for vacation rental -->
+  <url>
+    <loc>https://vacationrentaloahu.co/stay</loc>
+    <lastmod>2024-09-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;h=800</image:loc>
+      <image:title>Beach House Oahu Property Details</image:title>
+      <image:caption>Detailed view of our Beach House Oahu oceanfront property with premium amenities</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Booking Page - High priority for conversions -->
+  <url>
+    <loc>https://vacationrentaloahu.co/booking</loc>
+    <lastmod>2024-09-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;h=800</image:loc>
+      <image:title>Book Your Hawaiian Vacation</image:title>
+      <image:caption>Complete your reservation for the Beach House Oahu tropical experience</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact Page - Important for local SEO -->
+  <url>
+    <loc>https://vacationrentaloahu.co/contact</loc>
+    <lastmod>2024-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;h=800</image:loc>
+      <image:title>Contact VacationRentalOahu.co</image:title>
+      <image:caption>Get in touch with our team for questions about our Beach House Oahu vacation rental</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Policies Page - Important for trust and legal -->
+  <url>
+    <loc>https://vacationrentaloahu.co/policies</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1200&amp;h=800</image:loc>
+      <image:title>Vacation Rental Policies and Terms</image:title>
+      <image:caption>Comprehensive policies and terms for our luxury Oahu vacation rental</image:caption>
+    </image:image>
+  </url>
+
+</urlset>
